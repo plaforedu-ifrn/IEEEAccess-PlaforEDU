@@ -1,31 +1,48 @@
-# *[Title]*
+# A Framework for Automated Multi-Label Competency Mapping in Educational Courses Using Machine Learning and Retrieval-Augmented Large Language Models
 
-### ✍🏾 Authors: [Author Name 1](https://github.com/), [Author Name 2](https://github.com/), [Author Name 3](https://github.com/), [Author Name 4](https://github.com/), [Author Name 5](https://github.com/)
+### ✍🏾 Authors: 
+[Thaís Medeiros](https://github.com/thaisaraujom), 
+[Morsinaldo Medeiros](https://github.com/morsinaldo), 
+[Matheus Andrade](https://github.com/DinizMaths), 
+[Fabiane B. da Silva](https://github.com/fabibeletti), 
+[Silvan Ferreira](https://github.com/silvaan), 
+[Raymundo C. M. Ferreira Filho](https://github.com/pakafe), 
+[Thiago M. Barros](https://github.com/tmedeirosb), 
+[Ivanovitch Silva](https://github.com/ivanovitchm)
 
 ## Overview
 
-This repository contains the source code and experimental notebooks accompanying the IEEE Access paper on **multi-label competency prediction from course textual descriptions** within the PlaforEDU platform.
+This repository contains the source code and experimental notebooks accompanying the IEEE Access paper **"A Framework for Automated Multi-Label Competency Mapping in Educational Courses Using Machine Learning and Retrieval-Augmented Large Language Models"**, which introduces a framework for automated competency mapping from course textual descriptions within the PlaforEDU platform.
 
-The task involves automatically assigning one or more competencies to each course based on its title and description. The study evaluates two complementary paradigms:
+The framework supports the automatic assignment of one or more competencies to each course based on its title and description. The study evaluates two complementary paradigms:
 
 - **Supervised multi-label classification**, using TF-IDF, Word2Vec, and BERT textual representations combined with traditional machine learning and AutoML frameworks;
 - **Retrieval-Augmented Generation (RAG)**, where candidate competencies are retrieved by semantic similarity and filtered by large language models during inference.
 
-Experiments are conducted on a filtered corpus comprising **342 courses** annotated with **67 competencies**, enabling a controlled comparison between classical classifiers and generative approaches under the same evaluation protocol.
+Experiments are conducted on a filtered corpus comprising **342 courses** annotated with **67 competencies**, enabling a controlled comparison between classical classifiers and generative approaches under a unified Top-k evaluation protocol.
 
 ## Repository Structure
 
 - `eda.ipynb`  
   Exploratory data analysis (label frequency, co-occurrence, label cardinality, etc.)
 
+- `ml_models.ipynb`  
+  Supervised multi-label baselines using TF-IDF, Word2Vec, and BERT-based representations.
+
+- `autoML.ipynb`  
+  Automated machine learning experiments for model selection and hyperparameter optimization.
+
+- `autokeras.ipynb`  
+  AutoKeras-based experiments for automated neural architecture search.
+
 - `llm_proprietary.ipynb`  
   RAG-based labeling using proprietary API models and API embeddings.
-  
+
 - `llm_open.ipynb`  
   RAG-based labeling using locally hosted models via Ollama.
 
-- `ml_models.ipynb` *(to be added)*  
-  Supervised multi-label baselines + AutoML runs across TF-IDF / Word2Vec / BERT representations.
+- `dataset.csv`  
+  Filtered dataset containing course descriptions and associated competencies used in the experiments.
 
 ## Results Summary
 
