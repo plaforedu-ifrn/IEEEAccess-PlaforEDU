@@ -1,4 +1,4 @@
-# A Framework for Automated Multi-Label Competency Mapping in Educational Courses Using Machine Learning and Retrieval-Augmented Large Language Models
+# A Framework for Automated Multi-Label Competency Mapping from Course Descriptions with Supervised Learning and Retrieval-Augmented Large Language Models
 
 ### ✍🏾 Authors: 
 [Thaís Medeiros](https://github.com/thaisaraujom), 
@@ -12,7 +12,7 @@
 
 ## Overview
 
-This repository contains the source code and experimental notebooks accompanying the IEEE Access paper **"A Framework for Automated Multi-Label Competency Mapping in Educational Courses Using Machine Learning and Retrieval-Augmented Large Language Models"**, which introduces a framework for automated competency mapping from course textual descriptions within the PlaforEDU platform.
+This repository contains the source code and experimental notebooks accompanying the IEEE Access paper **"A Framework for Automated Multi-Label Competency Mapping from Course Descriptions with Supervised Learning and Retrieval-Augmented Large Language Models"**, which introduces a framework for automated competency mapping from course textual descriptions within the PlaforEDU platform.
 
 The framework supports the automatic assignment of one or more competencies to each course based on its title and description. The study evaluates two complementary paradigms:
 
