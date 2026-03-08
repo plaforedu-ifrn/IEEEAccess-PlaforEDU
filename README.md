@@ -85,3 +85,90 @@ Across supervised approaches, contextual BERT embeddings consistently yield high
 | DeepSeek-R1-70B | 16.59 | 37.43 |
 | GPT-4.1-mini | 19.76 | **65.79** |
 | GPT-5-mini | **26.11** | 55.26 |
+
+Segue o conteúdo em Markdown para colocar em uma célula de notebook (Markdown cell):
+
+## How to Run
+
+The experiments in this repository were implemented using **Python
+3.11.11** and executed through Jupyter notebooks. The recommended
+environment manager is **Miniconda/Conda**, and the notebooks can be
+executed directly in **Visual Studio Code (VS Code)** using the Python
+and Jupyter extensions.
+
+### 1. Clone the repository
+
+``` bash
+git clone https://github.com/plaforedu-ifrn/IEEEAccess-PlaforEDU.git
+cd IEEEAccess-PlaforEDU
+```
+
+### 2. Create a Conda environment
+
+Create and activate a Python environment using Conda:
+
+``` bash
+conda create -n plaforedu python=3.11
+conda activate plaforedu
+```
+
+### 3. Install dependencies
+
+Install all required Python libraries:
+
+``` bash
+pip install -r requirements.txt
+```
+
+### Environment variables for proprietary models (.env)
+
+Some notebooks (e.g., **llm_proprietary.ipynb**) use proprietary LLM
+APIs. To run these experiments, create a `.env` file in the root
+directory of the repository and define the required API keys.
+
+Example:
+
+``` bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+or other provider credentials depending on the model used.
+
+Make sure the `.env` file is loaded before executing the notebooks
+(e.g., using `python-dotenv`).
+
+### 4. Open the notebooks
+
+Open the repository folder in **Visual Studio Code**.
+
+Make sure the following extensions are installed:
+
+-   **Python**
+-   **Jupyter**
+
+Then select the **plaforedu** Conda environment as the notebook kernel
+before running the cells.
+
+### 5. Execute the notebooks
+
+The notebooks can be executed independently.
+
+### 6. Running local LLM experiments
+
+The notebook **llm_open.ipynb** uses **Ollama** to run local models.
+
+Install Ollama: https://ollama.com
+
+Example model download:
+
+``` bash
+ollama pull gemma3:27b
+```
+
+Start Ollama before executing the notebook.
+
+## Dataset
+
+The file **dataset.csv** contains the filtered dataset used in the
+experiments, consisting of **342 courses annotated with 67
+competencies**.
