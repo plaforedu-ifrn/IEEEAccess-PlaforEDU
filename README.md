@@ -7,6 +7,7 @@
 [Fabiane B. da Silva](https://github.com/fabibeletti), 
 [Silvan Ferreira](https://github.com/silvaan), 
 [Raymundo C. M. Ferreira Filho](https://github.com/pakafe), 
+[Otávio A. de L. Júnior](https://scholar.google.com/citations?user=93G_lY0AAAAJ&hl=en&oi=ao),
 [Thiago M. Barros](https://github.com/tmedeirosb), 
 [Ivanovitch Silva](https://github.com/ivanovitchm)
 
