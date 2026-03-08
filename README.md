@@ -166,9 +166,3 @@ ollama pull gemma3:27b
 ```
 
 Start Ollama before executing the notebook.
-
-## Dataset
-
-The file **dataset.csv** contains the filtered dataset used in the
-experiments, consisting of **342 courses annotated with 67
-competencies**.
