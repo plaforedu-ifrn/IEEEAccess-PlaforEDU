@@ -72,7 +72,7 @@ The proposed framework is organized into four blocks:
 
 1. **Input and Preparation**: starts from `dataset.csv`, combines course title and description into a shared textual input, aggregates course-competency records into multi-label course instances, filters competencies appearing in fewer than five courses, and performs exploratory data analysis.
 2. **Supervised Multi-Label Classification**: trains supervised models on the common train/test split using TF-IDF, Word2Vec, and BERT-based representations.
-3. **Language Model and RAG**: retrieves the top `m=10` candidate competencies from a FAISS vector store and uses LLMs as candidate-selection mechanisms constrained to the retrieved competency list.
+3. **Language Model and RAG**: retrieves the top `m=10` candidate competencies from a FAISS vector store and uses LLMs as candidate-selection mechanisms constrained to the retrieved competency list. Here, `m` denotes the retrieval depth, not the evaluation cutoff.
 4. **Evaluation**: converts each method output into ranked competency predictions and evaluates all branches under the same label space, data partition, and Top-k cutoffs.
 
 The case study is guided by four research questions: whether supervised models approximate specialist competency assignments; how TF-IDF, Word2Vec, and BERT affect predictive performance; how manually configured models compare with AutoML frameworks; and how the RAG-based LLM branch compares with supervised learning.
@@ -91,11 +91,11 @@ The manually configured supervised models include Binary Relevance with Logistic
 
 The automated branch evaluates FLAML, AutoGluon, and AutoKeras under framework-specific search constraints. AutoKeras is evaluated from raw textual input, while FLAML and AutoGluon use the externally generated textual representations.
 
-The RAG branch evaluates OpenAI API models (`gpt-4.1-mini`, `gpt-5-mini`) with `text-embedding-3-small` and locally hosted Ollama models (`gemma3:27b`, `deepseek-r1:70b`) with `nomic-embed-text`. LLM outputs are required in structured JSON form; invalid labels, duplicate labels, and labels outside the common 53-competency space are discarded before metric computation.
+The RAG branch evaluates OpenAI API models (`gpt-4.1-mini`, `gpt-5-mini`) with `text-embedding-3-small` and locally hosted Ollama models (`gemma3:27b`, `deepseek-r1:70b`) with `nomic-embed-text`. For each test course, the retriever returns the top `m=10` candidate competencies, matching the largest evaluated Top-k cutoff. LLM outputs are required in structured JSON form; invalid labels, duplicate labels, and labels outside the common 53-competency space are discarded before metric computation.
 
 ### Evaluation Protocol
 
-All models are evaluated for `k` in `{1, 3, 5, 7, 10}`. For each cutoff, ranked predictions are truncated to the top `k` valid competencies and converted into multi-label vectors. The evaluation reports Micro-F1, Macro-F1, Hamming Loss, Subset Accuracy, Partial Hit@k, Precision@k, and Recall@k.
+All models are evaluated for `k` in `{1, 3, 5, 7, 10}`. For each cutoff, ranked predictions are truncated to the top `k` valid competencies and converted into multi-label vectors. In the RAG branch, retrieval first produces up to `m=10` candidates, and the generated or retrieval-only ranking is then truncated at each `k` for evaluation. The evaluation reports Micro-F1, Macro-F1, Hamming Loss, Subset Accuracy, Partial Hit@k, Precision@k, and Recall@k.
 
 ## Results Summary
 
