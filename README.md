@@ -54,6 +54,49 @@ The source dataset contains **342 courses** and **67 competencies**. After prepr
 - `processed.csv`, `train.csv`, `test.csv`
   Generated pipeline artifacts used by the supervised and RAG/LLM notebooks.
 
+- `pipeline_utils.py`
+  Shared preprocessing, train/test loading, multi-label target preparation, Top-k metric computation, baseline scoring, and artifact export helpers used across the notebooks.
+
+- `results/`
+  Exported experiment artifacts, including metrics, sensitivity-by-k tables, predictions, timing files, configurations, raw RAG predictions, error logs, and vector stores used by the RAG branch.
+
+- `tests/`
+  Unit tests for the shared pipeline utilities.
+
+- `requirements.txt`
+  Full environment snapshot used during the experiments. It is useful as a reproducibility reference, but it is not a minimal cross-platform dependency file.
+
+## Proposed Framework and Case Study
+
+The proposed framework is organized into four blocks:
+
+1. **Input and Preparation**: starts from `dataset.csv`, combines course title and description into a shared textual input, aggregates course-competency records into multi-label course instances, filters competencies appearing in fewer than five courses, and performs exploratory data analysis.
+2. **Supervised Multi-Label Classification**: trains supervised models on the common train/test split using TF-IDF, Word2Vec, and BERT-based representations.
+3. **Language Model and RAG**: retrieves the top `m=10` candidate competencies from a FAISS vector store and uses LLMs as candidate-selection mechanisms constrained to the retrieved competency list.
+4. **Evaluation**: converts each method output into ranked competency predictions and evaluates all branches under the same label space, data partition, and Top-k cutoffs.
+
+The case study is guided by four research questions: whether supervised models approximate specialist competency assignments; how TF-IDF, Word2Vec, and BERT affect predictive performance; how manually configured models compare with AutoML frameworks; and how the RAG-based LLM branch compares with supervised learning.
+
+All approaches use the course title and description as textual input. The processed dataset is split once using an 80/20 train/test split with `seed=42`, producing 270 training courses and 68 held-out test courses. Supervised and AutoML models are trained on the training set and evaluated on the test set, while RAG-based LLM pipelines run in inference-only mode and are evaluated on the same 68 test courses.
+
+### Model Configuration
+
+The supervised branch evaluates three textual representations:
+
+- **TF-IDF** with unigram and bigram features and a vocabulary limited to 2,000 terms;
+- **Word2Vec** using 300-dimensional averaged embeddings;
+- **BERT** using 768-dimensional contextual embeddings from the `[CLS]` token of `neuralmind/bert-base-portuguese-cased`, without fine-tuning.
+
+The manually configured supervised models include Binary Relevance with Logistic Regression, Random Forest, Gradient Boosting, XGBoost, and Multilayer Perceptron (MLP). Random Forest, XGBoost, and Gradient Boosting use classifier chains to account for possible label relationships.
+
+The automated branch evaluates FLAML, AutoGluon, and AutoKeras under framework-specific search constraints. AutoKeras is evaluated from raw textual input, while FLAML and AutoGluon use the externally generated textual representations.
+
+The RAG branch evaluates OpenAI API models (`gpt-4.1-mini`, `gpt-5-mini`) with `text-embedding-3-small` and locally hosted Ollama models (`gemma3:27b`, `deepseek-r1:70b`) with `nomic-embed-text`. LLM outputs are required in structured JSON form; invalid labels, duplicate labels, and labels outside the common 53-competency space are discarded before metric computation.
+
+### Evaluation Protocol
+
+All models are evaluated for `k` in `{1, 3, 5, 7, 10}`. For each cutoff, ranked predictions are truncated to the top `k` valid competencies and converted into multi-label vectors. The evaluation reports Micro-F1, Macro-F1, Hamming Loss, Subset Accuracy, Partial Hit@k, Precision@k, and Recall@k.
+
 ## Results Summary
 
 The paper reports best predictive results across the evaluated Top-k cutoffs, with `k` in `{1, 3, 5, 7, 10}`. Values below follow the paper's `[0, 1]` scale and indicate the cutoff at which each best value was achieved. The exported metrics, sensitivity tables, timings, predictions, and configurations are stored under `results/`.
@@ -149,7 +192,21 @@ conda activate plaforedu
 
 ### 3. Install dependencies
 
-Install all required Python libraries:
+The repository includes `requirements.txt` as a full environment snapshot from
+the experiment setup. Because this file contains many pinned transitive
+dependencies and platform-specific entries, it should be interpreted as a
+reproducibility reference rather than as a minimal portable dependency list.
+
+For a fresh environment, start with the core packages used by the notebooks:
+
+``` bash
+pip install pandas numpy scikit-learn matplotlib seaborn networkx requests
+pip install nltk gensim torch transformers xgboost
+pip install flaml autogluon autokeras tensorflow
+pip install python-dotenv langchain-community langchain-core langchain-openai langchain-ollama faiss-cpu pydantic tqdm
+```
+
+To attempt reproducing the original captured environment exactly, use:
 
 ``` bash
 pip install -r requirements.txt
@@ -186,7 +243,7 @@ before running the cells.
 
 ### 5. Execute the notebooks
 
-Run the pipeline in this order for supervised experiments:
+Run the full experimental pipeline in this order:
 
 ``` bash
 eda.ipynb
