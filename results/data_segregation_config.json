@@ -1,0 +1,6 @@
+{
+  "test_size": 0.2,
+  "seed": 42,
+  "n_train": 270,
+  "n_test": 68
+}

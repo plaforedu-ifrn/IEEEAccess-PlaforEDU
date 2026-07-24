@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+flaml,bert,600.132687400037,0.0025786999613046646,3.792205825448036e-05

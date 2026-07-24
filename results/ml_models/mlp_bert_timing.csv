@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+mlp,bert,1.0924323000363074,0.0014993000077083707,2.2048529525123097e-05

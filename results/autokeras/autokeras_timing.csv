@@ -1,0 +1,2 @@
+method,train_seconds,inference_seconds,inference_seconds_per_sample
+autokeras,23.046963000000005,0.47108850000000757,0.006927772058823641

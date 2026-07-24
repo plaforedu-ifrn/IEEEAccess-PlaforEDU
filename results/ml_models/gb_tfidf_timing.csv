@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+gb,tfidf,28.043055000016466,0.028536199999507517,0.0004196499999927576

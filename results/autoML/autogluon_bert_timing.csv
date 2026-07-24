@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+autogluon,bert,727.9183554000338,1.648469900013879,0.02424220441196881

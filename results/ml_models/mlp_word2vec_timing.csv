@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+mlp,word2vec,1.0599248000071384,0.0008374000317417085,1.2314706349142772e-05

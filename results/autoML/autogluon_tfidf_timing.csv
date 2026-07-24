@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+autogluon,tfidf,455.4038163999794,1.6481123000266962,0.024236945588627885

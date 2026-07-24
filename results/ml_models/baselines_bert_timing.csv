@@ -1,0 +1,3 @@
+method,train_seconds,inference_seconds,inference_seconds_per_sample
+baseline_frequency_topk,3.00002284348011e-07,0.00029280001763254404,4.305882612243295e-06
+baseline_random_distribution,7.00005330145359e-07,0.00011760002234950662,1.7294120933750974e-06

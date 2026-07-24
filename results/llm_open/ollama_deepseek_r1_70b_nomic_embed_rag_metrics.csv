@@ -1,0 +1,2 @@
+method,k,micro_f1,macro_f1,hamming_loss,subset_accuracy,precision_at_k,recall_at_k,partial_hit_at_k,lrap,coverage_error,n_samples,n_labels
+ollama_deepseek_r1_70b_nomic_embed_rag,7,0.22935779816513763,0.14646495221908504,0.0932297447280799,0.014705882352941176,0.10504201680672269,0.27351349630761396,0.4852941176470588,,,68,53

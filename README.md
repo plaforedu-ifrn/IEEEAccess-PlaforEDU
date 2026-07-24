@@ -27,23 +27,32 @@ Experiments are conducted on a filtered corpus comprising **342 courses** annota
 - `eda.ipynb`  
   Exploratory data analysis (label frequency, co-occurrence, label cardinality, etc.)
 
+- `processing.ipynb`
+  ETL/pre-processing step that reads `dataset.csv`, aggregates course labels, filters rare competencies, and exports `processed.csv`.
+
+- `data_segregation.ipynb`
+  Train/test segregation step that reads `processed.csv` and exports `train.csv` and `test.csv`.
+
 - `ml_models.ipynb`  
-  Supervised multi-label baselines using TF-IDF, Word2Vec, and BERT-based representations.
+  Supervised multi-label baselines using TF-IDF, Word2Vec, and BERT-based representations. This notebook reads `train.csv` and `test.csv`.
 
 - `autoML.ipynb`  
-  Automated machine learning experiments for model selection and hyperparameter optimization.
+  Automated machine learning experiments for model selection and hyperparameter optimization. This notebook reads `train.csv` and `test.csv`.
 
 - `autokeras.ipynb`  
-  AutoKeras-based experiments for automated neural architecture search.
+  AutoKeras-based experiments for automated neural architecture search. This notebook reads `train.csv` and `test.csv`.
 
 - `llm_proprietary.ipynb`  
-  RAG-based labeling using proprietary API models and API embeddings.
+  RAG-based labeling using proprietary API models and API embeddings. The current experiment uses `gpt-5-mini` with `text-embedding-3-small` through the OpenAI API and evaluates the same `test.csv` courses used by the supervised experiments.
 
 - `llm_open.ipynb`  
-  RAG-based labeling using locally hosted models via Ollama.
+  RAG-based labeling using locally hosted models via Ollama. The current experiment uses `deepseek-r1:70b` with `nomic-embed-text`, assuming local execution on an NVIDIA RTX 6000 Ada 48GB GPU, and evaluates the same `test.csv` courses used by the supervised experiments.
 
 - `dataset.csv`  
   Filtered dataset containing course descriptions and associated competencies used in the experiments.
+
+- `processed.csv`, `train.csv`, `test.csv`
+  Generated pipeline artifacts used by the supervised training notebooks.
 
 ## Results Summary
 
@@ -151,18 +160,41 @@ before running the cells.
 
 ### 5. Execute the notebooks
 
-The notebooks can be executed independently.
+Run the pipeline in this order for supervised experiments:
+
+``` bash
+eda.ipynb
+processing.ipynb
+data_segregation.ipynb
+ml_models.ipynb / autoML.ipynb / autokeras.ipynb
+llm_open.ipynb / llm_proprietary.ipynb
+```
+
+The supervised and RAG/LLM notebooks export updated metrics, sensitivity-by-k tables, timing tables, configuration logs, and predictions under `results/`.
 
 ### 6. Running local LLM experiments
 
 The notebook **llm_open.ipynb** uses **Ollama** to run local models.
+The open LLM experiment is identified in the exported artifacts as
+`ollama_deepseek_r1_70b_nomic_embed_rag`, while the executable Ollama
+model IDs remain `deepseek-r1:70b` and `nomic-embed-text`.
+
+The reported runtime assumes local execution with an **NVIDIA RTX 6000
+Ada 48GB** GPU. Running the same notebook on CPU or on a different GPU
+can substantially change the timing results.
 
 Install Ollama: https://ollama.com
 
-Example model download:
+Download the model and embedding model:
 
 ``` bash
-ollama pull gemma3:27b
+ollama pull deepseek-r1:70b
+ollama pull nomic-embed-text
 ```
 
 Start Ollama before executing the notebook.
+
+The proprietary LLM experiment in **llm_proprietary.ipynb** is identified
+as `openai_gpt5mini_text_embedding_3_small_rag` and uses OpenAI managed
+infrastructure through the API, so its timing should be interpreted as
+API/runtime latency rather than local GPU runtime.

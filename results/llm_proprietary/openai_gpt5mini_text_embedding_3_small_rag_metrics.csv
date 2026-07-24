@@ -1,0 +1,2 @@
+method,k,micro_f1,macro_f1,hamming_loss,subset_accuracy,precision_at_k,recall_at_k,partial_hit_at_k,lrap,coverage_error,n_samples,n_labels
+openai_gpt5mini_text_embedding_3_small_rag,7,0.29357798165137616,0.2359944645634381,0.08546059933407325,0.014705882352941176,0.13445378151260504,0.3569805194805195,0.6029411764705882,,,68,53

@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+flaml,tfidf,600.5888379000244,0.002689699991606176,3.955441164126729e-05

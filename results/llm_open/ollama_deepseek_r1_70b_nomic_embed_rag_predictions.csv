@@ -1,0 +1,341 @@
+method,k,sample_index,predicted_labels,true_labels
+ollama_deepseek_r1_70b_nomic_embed_rag,1,0,['Análise de evidências'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,1,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,2,['Acessibilidade e inclusão - Docente'],"['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,3,['Promoção da Inclusão e Acessibilidade'],"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,4,['Ensino'],"['Criação de conteúdo digital', 'Criação e modificação', 'Ensino', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,5,['Comunicação'],"['Colaboração profissional', 'Gestão do desenvolvimento de pessoas', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,6,['Seleção'],"['Criação de conteúdo digital', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Literacia da informação e das mídias', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,7,['Contribuição técnico-profissional'],['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,8,['Literacia da informação e das mídias'],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,9,['Criação e modificação'],"['Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,10,['Orientação ao cidadão'],"['Foco nos resultados para os cidadãos', 'Gerenciamento de recursos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,11,['Gestão do desenvolvimento de pessoas'],"['Aprendizagem autorregulada', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,12,['Ensino'],"['Análise de evidências', 'Ensino', 'Estratégias de avaliação', 'Feedback e planificação', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,13,['Melhoria contínua de processos'],['Gestão do desenvolvimento de pessoas']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,14,[],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Foco nos resultados para os cidadãos']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,15,['Gestão da qualidade'],"['Inovação', 'Mentalidade Digital', 'Trabalho em equipe', 'Visão Sistêmica']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,16,['Tomada de decisão para gestores'],"['Foco nos resultados para os cidadãos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,17,['Promoção da Inclusão e Acessibilidade'],"['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,18,['Comunicação interpessoal'],"['Comunicação', 'Comunicação e colaboração digital', 'Comunicação efetiva', 'Comunicação institucional', 'Comunicação interpessoal', 'Criação de conteúdo digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Orientação ao cidadão', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,19,['Ensino'],"['Aprendizagem autorregulada', 'Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,20,['Gerenciamento de políticas'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,21,['Criação e modificação'],"['Análise de evidências', 'Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,22,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,23,['Literacia da informação e das mídias'],"['Comunicação e colaboração digital', 'Criação de conteúdo digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,24,['Comunicação interpessoal'],['Comunicação interpessoal']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,25,['Criação e modificação'],"['Ensino', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,26,['Comunicação interpessoal'],"['Comunicação', 'Comunicação efetiva', 'Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,27,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,28,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,29,['Uso de TIC'],"['Criação de conteúdo digital', 'Criação e modificação', 'Gerenciamento digital', 'Mentalidade Digital', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,30,['Gestão do trabalho em equipe'],"['Gestão do trabalho em equipe', 'Liderança eficaz', 'Trabalho em equipe']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,31,['Aprendizagem colaborativa'],"['Aprendizagem colaborativa', 'Envolvimento ativo']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,32,['Comunicação interpessoal'],"['Contribuição técnico-profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,33,['Inovação'],"['Aprendizagem colaborativa', 'Ensino', 'Envolvimento ativo', 'Estratégias de avaliação', 'Literacia da informação e das mídias', 'Orientação', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,34,['Literacia da informação e das mídias'],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,35,['Promoção da Inclusão e Acessibilidade'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,36,['Gestão do trabalho em equipe'],"['Foco nos resultados para os cidadãos', 'Liderança eficaz']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,37,[],"['Orientação ao cidadão', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,38,['Planejamento'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,39,[],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,40,['Acessibilidade e inclusão - Docente'],"['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Promoção da Inclusão e Acessibilidade', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,41,"['Gestão, proteção e compartilhamento']","['Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,42,['Gerenciamento da mudança'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,43,['Ensino'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,44,['Ensino'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,45,['Melhoria contínua de processos'],"['Gerenciamento de recursos', 'Inovação', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,46,['Criação e modificação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,47,['Gestão do trabalho em equipe'],"['Gestão do trabalho em equipe', 'Mentalidade Digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,48,['Acessibilidade e inclusão - Docente'],['Acessibilidade e inclusão - Docente']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,49,['Acessibilidade e inclusão - Docente'],"['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,50,['Gestão do desenvolvimento de pessoas'],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Estratégias de avaliação', 'Planejamento', 'Resolução de problemas com base em dados', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,51,['Gestão do trabalho em equipe'],"['Colaboração profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Gerenciamento da mudança', 'Gerenciamento de recursos', 'Gerenciamento digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Inovação', 'Mentalidade Digital', 'Organização da rotina', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,52,['Envolvimento ativo'],['Seleção']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,53,['Promoção da Inclusão e Acessibilidade'],"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,54,['Relações institucionais'],"['Comunicação institucional', 'Literacia da informação e das mídias']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,55,['Acessibilidade e inclusão - Docente'],['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,56,['Orientação ao cidadão'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,57,['Orientação ao cidadão'],['Orientação ao cidadão']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,58,[],['Uso de TIC']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,59,['Gerenciamento de políticas'],['Orientações por valores éticos']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,60,['Tomada de decisão para gestores'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,61,['Orientação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,62,"['Gestão, proteção e compartilhamento']","['Gestão do desenvolvimento de pessoas', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,63,['Comunicação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,64,['Acessibilidade e inclusão - Docente'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,1,65,[],['Envolvimento ativo']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,66,['Planejamento'],['Análise de problemas']
+ollama_deepseek_r1_70b_nomic_embed_rag,1,67,['Orientação ao cidadão'],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,0,"['Análise de evidências', 'Seleção', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,1,"['Contribuição técnico-profissional', 'Prática reflexiva']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,2,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,3,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,4,"['Ensino', 'Inovação', 'Criação e modificação']","['Criação de conteúdo digital', 'Criação e modificação', 'Ensino', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,5,['Comunicação'],"['Colaboração profissional', 'Gestão do desenvolvimento de pessoas', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,6,"['Seleção', 'Gestão, proteção e compartilhamento', 'Orientação']","['Criação de conteúdo digital', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Literacia da informação e das mídias', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,7,"['Contribuição técnico-profissional', 'Literacia da informação e das mídias', 'Envolvimento ativo']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,8,"['Literacia da informação e das mídias', 'Contribuição técnico-profissional']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,9,"['Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento']","['Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,10,"['Orientação ao cidadão', 'Gestão da qualidade', 'Visão Sistêmica']","['Foco nos resultados para os cidadãos', 'Gerenciamento de recursos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,11,"['Gestão do desenvolvimento de pessoas', 'Criação e modificação', 'Seleção']","['Aprendizagem autorregulada', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,12,"['Ensino', 'Análise de evidências', 'Feedback e planificação']","['Análise de evidências', 'Ensino', 'Estratégias de avaliação', 'Feedback e planificação', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,13,"['Melhoria contínua de processos', 'Literacia da informação e das mídias']",['Gestão do desenvolvimento de pessoas']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,14,[],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Foco nos resultados para os cidadãos']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,15,"['Gestão da qualidade', 'Criação e modificação', 'Orientação ao cidadão']","['Inovação', 'Mentalidade Digital', 'Trabalho em equipe', 'Visão Sistêmica']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,16,"['Tomada de decisão para gestores', 'Análise de problemas', 'Orientações por valores éticos']","['Foco nos resultados para os cidadãos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,17,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Ensino']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,18,"['Comunicação interpessoal', 'Literacia da informação e das mídias', 'Orientação ao cidadão']","['Comunicação', 'Comunicação e colaboração digital', 'Comunicação efetiva', 'Comunicação institucional', 'Comunicação interpessoal', 'Criação de conteúdo digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Orientação ao cidadão', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,19,"['Ensino', 'Criação e modificação']","['Aprendizagem autorregulada', 'Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,20,"['Gerenciamento de políticas', 'Foco nos resultados para os cidadãos']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,21,['Criação e modificação'],"['Análise de evidências', 'Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,22,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,23,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção']","['Comunicação e colaboração digital', 'Criação de conteúdo digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,24,"['Comunicação interpessoal', 'Comunicação efetiva', 'Liderança eficaz']",['Comunicação interpessoal']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,25,"['Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Ensino', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,26,"['Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Comunicação']","['Comunicação', 'Comunicação efetiva', 'Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,27,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,28,"['Envolvimento ativo', 'Criação e modificação', 'Feedback e planificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,29,['Uso de TIC'],"['Criação de conteúdo digital', 'Criação e modificação', 'Gerenciamento digital', 'Mentalidade Digital', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,30,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento da mudança']","['Gestão do trabalho em equipe', 'Liderança eficaz', 'Trabalho em equipe']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,31,"['Aprendizagem colaborativa', 'Trabalho em equipe']","['Aprendizagem colaborativa', 'Envolvimento ativo']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,32,"['Comunicação interpessoal', 'Gerenciamento de recursos', 'Contribuição técnico-profissional']","['Contribuição técnico-profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,33,"['Inovação', 'Uso de TIC', 'Criação e modificação']","['Aprendizagem colaborativa', 'Ensino', 'Envolvimento ativo', 'Estratégias de avaliação', 'Literacia da informação e das mídias', 'Orientação', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,34,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,35,"['Promoção da Inclusão e Acessibilidade', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,36,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Tomada de decisão para gestores']","['Foco nos resultados para os cidadãos', 'Liderança eficaz']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,37,[],"['Orientação ao cidadão', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,38,"['Planejamento', 'Literacia da informação e das mídias', 'Criação e modificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,39,[],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,40,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Seleção']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Promoção da Inclusão e Acessibilidade', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,41,"['Gestão, proteção e compartilhamento', 'Criação e modificação', 'Ensino']","['Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,42,['Gerenciamento da mudança'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,43,"['Ensino', 'Seleção', 'Criação e modificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,44,"['Ensino', 'Seleção', 'Criação e modificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,45,"['Melhoria contínua de processos', 'Visão Sistêmica', 'Inovação']","['Gerenciamento de recursos', 'Inovação', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,46,"['Criação e modificação', 'Ensino', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,47,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Trabalho em equipe']","['Gestão do trabalho em equipe', 'Mentalidade Digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,48,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Ensino']",['Acessibilidade e inclusão - Docente']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,49,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,50,"['Gestão do desenvolvimento de pessoas', 'Feedback e planificação', 'Uso de TIC']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Estratégias de avaliação', 'Planejamento', 'Resolução de problemas com base em dados', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,51,"['Gestão do trabalho em equipe', 'Uso de TIC', 'Melhoria contínua de processos']","['Colaboração profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Gerenciamento da mudança', 'Gerenciamento de recursos', 'Gerenciamento digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Inovação', 'Mentalidade Digital', 'Organização da rotina', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,52,"['Envolvimento ativo', 'Inovação', 'Criação e modificação']",['Seleção']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,53,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Gestão do desenvolvimento de pessoas']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,54,"['Relações institucionais', 'Literacia da informação e das mídias', 'Contribuição técnico-profissional']","['Comunicação institucional', 'Literacia da informação e das mídias']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,55,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,56,"['Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Comunicação interpessoal']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,57,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Uso de TIC']",['Orientação ao cidadão']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,58,[],['Uso de TIC']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,59,"['Gerenciamento de políticas', 'Orientação ao cidadão', 'Foco nos resultados para os cidadãos']",['Orientações por valores éticos']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,60,['Tomada de decisão para gestores'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,61,"['Orientação', 'Análise de evidências', 'Acessibilidade e inclusão - Docente']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,62,"['Gestão, proteção e compartilhamento', 'Literacia da informação e das mídias']","['Gestão do desenvolvimento de pessoas', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,63,['Comunicação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,64,"['Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,3,65,[],['Envolvimento ativo']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,66,"['Planejamento', 'Organização da rotina', 'Resolução de problemas com base em dados']",['Análise de problemas']
+ollama_deepseek_r1_70b_nomic_embed_rag,3,67,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Gestão do desenvolvimento de pessoas']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,0,"['Análise de evidências', 'Seleção', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,1,"['Contribuição técnico-profissional', 'Prática reflexiva']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,2,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,3,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,4,"['Ensino', 'Inovação', 'Criação e modificação', 'Acessibilidade e inclusão - Docente', 'Feedback e planificação']","['Criação de conteúdo digital', 'Criação e modificação', 'Ensino', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,5,['Comunicação'],"['Colaboração profissional', 'Gestão do desenvolvimento de pessoas', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,6,"['Seleção', 'Gestão, proteção e compartilhamento', 'Orientação', 'Ensino', 'Colaboração profissional']","['Criação de conteúdo digital', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Literacia da informação e das mídias', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,7,"['Contribuição técnico-profissional', 'Literacia da informação e das mídias', 'Envolvimento ativo', 'Gestão da qualidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,8,"['Literacia da informação e das mídias', 'Contribuição técnico-profissional']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,9,"['Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento', 'Ensino', 'Feedback e planificação']","['Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,10,"['Orientação ao cidadão', 'Gestão da qualidade', 'Visão Sistêmica', 'Melhoria contínua de processos', 'Literacia da informação e das mídias']","['Foco nos resultados para os cidadãos', 'Gerenciamento de recursos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,11,"['Gestão do desenvolvimento de pessoas', 'Criação e modificação', 'Seleção', 'Uso de TIC', 'Orientação']","['Aprendizagem autorregulada', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,12,"['Ensino', 'Análise de evidências', 'Feedback e planificação', 'Seleção', 'Criação e modificação']","['Análise de evidências', 'Ensino', 'Estratégias de avaliação', 'Feedback e planificação', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,13,"['Melhoria contínua de processos', 'Literacia da informação e das mídias']",['Gestão do desenvolvimento de pessoas']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,14,[],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Foco nos resultados para os cidadãos']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,15,"['Gestão da qualidade', 'Criação e modificação', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Melhoria contínua de processos']","['Inovação', 'Mentalidade Digital', 'Trabalho em equipe', 'Visão Sistêmica']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,16,"['Tomada de decisão para gestores', 'Análise de problemas', 'Orientações por valores éticos']","['Foco nos resultados para os cidadãos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,17,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Ensino', 'Envolvimento ativo', 'Gestão, proteção e compartilhamento']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,18,"['Comunicação interpessoal', 'Literacia da informação e das mídias', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Comunicação', 'Comunicação e colaboração digital', 'Comunicação efetiva', 'Comunicação institucional', 'Comunicação interpessoal', 'Criação de conteúdo digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Orientação ao cidadão', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,19,"['Ensino', 'Criação e modificação']","['Aprendizagem autorregulada', 'Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,20,"['Gerenciamento de políticas', 'Foco nos resultados para os cidadãos']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,21,['Criação e modificação'],"['Análise de evidências', 'Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,22,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,23,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção']","['Comunicação e colaboração digital', 'Criação de conteúdo digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,24,"['Comunicação interpessoal', 'Comunicação efetiva', 'Liderança eficaz', 'Comunicação', 'Gestão do desenvolvimento de pessoas']",['Comunicação interpessoal']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,25,"['Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção', 'Criação de conteúdo digital']","['Ensino', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,26,"['Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Comunicação']","['Comunicação', 'Comunicação efetiva', 'Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,27,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,28,"['Envolvimento ativo', 'Criação e modificação', 'Feedback e planificação', 'Ensino', 'Seleção']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,29,['Uso de TIC'],"['Criação de conteúdo digital', 'Criação e modificação', 'Gerenciamento digital', 'Mentalidade Digital', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,30,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento da mudança', 'Comunicação interpessoal']","['Gestão do trabalho em equipe', 'Liderança eficaz', 'Trabalho em equipe']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,31,"['Aprendizagem colaborativa', 'Trabalho em equipe']","['Aprendizagem colaborativa', 'Envolvimento ativo']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,32,"['Comunicação interpessoal', 'Gerenciamento de recursos', 'Contribuição técnico-profissional']","['Contribuição técnico-profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,33,"['Inovação', 'Uso de TIC', 'Criação e modificação', 'Gestão do desenvolvimento de pessoas', 'Literacia da informação e das mídias']","['Aprendizagem colaborativa', 'Ensino', 'Envolvimento ativo', 'Estratégias de avaliação', 'Literacia da informação e das mídias', 'Orientação', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,34,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,35,"['Promoção da Inclusão e Acessibilidade', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Criação e modificação', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,36,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Tomada de decisão para gestores']","['Foco nos resultados para os cidadãos', 'Liderança eficaz']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,37,[],"['Orientação ao cidadão', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,38,"['Planejamento', 'Literacia da informação e das mídias', 'Criação e modificação', 'Inovação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,39,[],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,40,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Seleção', 'Diferenciação e personalização', 'Literacia da informação e das mídias']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Promoção da Inclusão e Acessibilidade', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,41,"['Gestão, proteção e compartilhamento', 'Criação e modificação', 'Ensino', 'Seleção', 'Literacia da informação e das mídias']","['Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,42,['Gerenciamento da mudança'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,43,"['Ensino', 'Seleção', 'Criação e modificação', 'Envolvimento ativo', 'Feedback e planificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,44,"['Ensino', 'Seleção', 'Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,45,"['Melhoria contínua de processos', 'Visão Sistêmica', 'Inovação', 'Gestão da qualidade', 'Gerenciamento da mudança']","['Gerenciamento de recursos', 'Inovação', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,46,"['Criação e modificação', 'Ensino', 'Gestão, proteção e compartilhamento', 'Seleção', 'Feedback e planificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,47,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Trabalho em equipe', 'Gestão da qualidade', 'Contribuição técnico-profissional']","['Gestão do trabalho em equipe', 'Mentalidade Digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,48,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Ensino', 'Orientação']",['Acessibilidade e inclusão - Docente']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,49,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,50,"['Gestão do desenvolvimento de pessoas', 'Feedback e planificação', 'Uso de TIC', 'Seleção', 'Gestão, proteção e compartilhamento']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Estratégias de avaliação', 'Planejamento', 'Resolução de problemas com base em dados', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,51,"['Gestão do trabalho em equipe', 'Uso de TIC', 'Melhoria contínua de processos', 'Gerenciamento da mudança']","['Colaboração profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Gerenciamento da mudança', 'Gerenciamento de recursos', 'Gerenciamento digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Inovação', 'Mentalidade Digital', 'Organização da rotina', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,52,"['Envolvimento ativo', 'Inovação', 'Criação e modificação', 'Orientação', 'Literacia da informação e das mídias']",['Seleção']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,53,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Gestão do desenvolvimento de pessoas', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,54,"['Relações institucionais', 'Literacia da informação e das mídias', 'Contribuição técnico-profissional']","['Comunicação institucional', 'Literacia da informação e das mídias']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,55,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,56,"['Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Comunicação interpessoal']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,57,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Uso de TIC', 'Foco nos resultados para os cidadãos', 'Promoção da Inclusão e Acessibilidade']",['Orientação ao cidadão']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,58,[],['Uso de TIC']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,59,"['Gerenciamento de políticas', 'Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Visão Sistêmica']",['Orientações por valores éticos']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,60,['Tomada de decisão para gestores'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,61,"['Orientação', 'Análise de evidências', 'Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Feedback e planificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,62,"['Gestão, proteção e compartilhamento', 'Literacia da informação e das mídias']","['Gestão do desenvolvimento de pessoas', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,63,['Comunicação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,64,"['Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,5,65,[],['Envolvimento ativo']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,66,"['Planejamento', 'Organização da rotina', 'Resolução de problemas com base em dados', 'Criação e modificação', 'Análise de problemas']",['Análise de problemas']
+ollama_deepseek_r1_70b_nomic_embed_rag,5,67,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento digital', 'Comunicação interpessoal']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,0,"['Análise de evidências', 'Seleção', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,1,"['Contribuição técnico-profissional', 'Prática reflexiva']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,2,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,3,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,4,"['Ensino', 'Inovação', 'Criação e modificação', 'Acessibilidade e inclusão - Docente', 'Feedback e planificação', 'Orientação', 'Seleção']","['Criação de conteúdo digital', 'Criação e modificação', 'Ensino', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,5,['Comunicação'],"['Colaboração profissional', 'Gestão do desenvolvimento de pessoas', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,6,"['Seleção', 'Gestão, proteção e compartilhamento', 'Orientação', 'Ensino', 'Colaboração profissional', 'Literacia da informação e das mídias']","['Criação de conteúdo digital', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Literacia da informação e das mídias', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,7,"['Contribuição técnico-profissional', 'Literacia da informação e das mídias', 'Envolvimento ativo', 'Gestão da qualidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,8,"['Literacia da informação e das mídias', 'Contribuição técnico-profissional']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,9,"['Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento', 'Ensino', 'Feedback e planificação']","['Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,10,"['Orientação ao cidadão', 'Gestão da qualidade', 'Visão Sistêmica', 'Melhoria contínua de processos', 'Literacia da informação e das mídias']","['Foco nos resultados para os cidadãos', 'Gerenciamento de recursos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,11,"['Gestão do desenvolvimento de pessoas', 'Criação e modificação', 'Seleção', 'Uso de TIC', 'Orientação', 'Envolvimento ativo']","['Aprendizagem autorregulada', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,12,"['Ensino', 'Análise de evidências', 'Feedback e planificação', 'Seleção', 'Criação e modificação', 'Literacia da informação e das mídias', 'Acessibilidade e inclusão - Docente']","['Análise de evidências', 'Ensino', 'Estratégias de avaliação', 'Feedback e planificação', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,13,"['Melhoria contínua de processos', 'Literacia da informação e das mídias']",['Gestão do desenvolvimento de pessoas']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,14,[],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Foco nos resultados para os cidadãos']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,15,"['Gestão da qualidade', 'Criação e modificação', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Melhoria contínua de processos']","['Inovação', 'Mentalidade Digital', 'Trabalho em equipe', 'Visão Sistêmica']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,16,"['Tomada de decisão para gestores', 'Análise de problemas', 'Orientações por valores éticos']","['Foco nos resultados para os cidadãos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,17,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Ensino', 'Envolvimento ativo', 'Gestão, proteção e compartilhamento', 'Feedback e planificação', 'Orientação']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,18,"['Comunicação interpessoal', 'Literacia da informação e das mídias', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Comunicação', 'Comunicação e colaboração digital', 'Comunicação efetiva', 'Comunicação institucional', 'Comunicação interpessoal', 'Criação de conteúdo digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Orientação ao cidadão', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,19,"['Ensino', 'Criação e modificação']","['Aprendizagem autorregulada', 'Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,20,"['Gerenciamento de políticas', 'Foco nos resultados para os cidadãos']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,21,['Criação e modificação'],"['Análise de evidências', 'Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,22,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,23,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção']","['Comunicação e colaboração digital', 'Criação de conteúdo digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,24,"['Comunicação interpessoal', 'Comunicação efetiva', 'Liderança eficaz', 'Comunicação', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe']",['Comunicação interpessoal']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,25,"['Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção', 'Criação de conteúdo digital']","['Ensino', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,26,"['Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Comunicação']","['Comunicação', 'Comunicação efetiva', 'Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,27,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,28,"['Envolvimento ativo', 'Criação e modificação', 'Feedback e planificação', 'Ensino', 'Seleção', 'Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,29,['Uso de TIC'],"['Criação de conteúdo digital', 'Criação e modificação', 'Gerenciamento digital', 'Mentalidade Digital', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,30,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento da mudança', 'Comunicação interpessoal']","['Gestão do trabalho em equipe', 'Liderança eficaz', 'Trabalho em equipe']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,31,"['Aprendizagem colaborativa', 'Trabalho em equipe']","['Aprendizagem colaborativa', 'Envolvimento ativo']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,32,"['Comunicação interpessoal', 'Gerenciamento de recursos', 'Contribuição técnico-profissional']","['Contribuição técnico-profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,33,"['Inovação', 'Uso de TIC', 'Criação e modificação', 'Gestão do desenvolvimento de pessoas', 'Literacia da informação e das mídias', 'Melhoria contínua de processos', 'Acessibilidade e inclusão - Docente']","['Aprendizagem colaborativa', 'Ensino', 'Envolvimento ativo', 'Estratégias de avaliação', 'Literacia da informação e das mídias', 'Orientação', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,34,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,35,"['Promoção da Inclusão e Acessibilidade', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Criação e modificação', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,36,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Tomada de decisão para gestores']","['Foco nos resultados para os cidadãos', 'Liderança eficaz']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,37,[],"['Orientação ao cidadão', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,38,"['Planejamento', 'Literacia da informação e das mídias', 'Criação e modificação', 'Inovação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,39,[],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,40,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Seleção', 'Diferenciação e personalização', 'Literacia da informação e das mídias', 'Feedback e planificação', 'Orientação']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Promoção da Inclusão e Acessibilidade', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,41,"['Gestão, proteção e compartilhamento', 'Criação e modificação', 'Ensino', 'Seleção', 'Literacia da informação e das mídias', 'Feedback e planificação', 'Diferenciação e personalização']","['Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,42,['Gerenciamento da mudança'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,43,"['Ensino', 'Seleção', 'Criação e modificação', 'Envolvimento ativo', 'Feedback e planificação', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,44,"['Ensino', 'Seleção', 'Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Feedback e planificação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,45,"['Melhoria contínua de processos', 'Visão Sistêmica', 'Inovação', 'Gestão da qualidade', 'Gerenciamento da mudança', 'Orientação ao cidadão', 'Gerenciamento de políticas']","['Gerenciamento de recursos', 'Inovação', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,46,"['Criação e modificação', 'Ensino', 'Gestão, proteção e compartilhamento', 'Seleção', 'Feedback e planificação', 'Orientação', 'Acessibilidade e inclusão - Docente']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,47,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Trabalho em equipe', 'Gestão da qualidade', 'Contribuição técnico-profissional']","['Gestão do trabalho em equipe', 'Mentalidade Digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,48,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Ensino', 'Orientação']",['Acessibilidade e inclusão - Docente']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,49,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento', 'Feedback e planificação']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,50,"['Gestão do desenvolvimento de pessoas', 'Feedback e planificação', 'Uso de TIC', 'Seleção', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Criação e modificação']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Estratégias de avaliação', 'Planejamento', 'Resolução de problemas com base em dados', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,51,"['Gestão do trabalho em equipe', 'Uso de TIC', 'Melhoria contínua de processos', 'Gerenciamento da mudança']","['Colaboração profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Gerenciamento da mudança', 'Gerenciamento de recursos', 'Gerenciamento digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Inovação', 'Mentalidade Digital', 'Organização da rotina', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,52,"['Envolvimento ativo', 'Inovação', 'Criação e modificação', 'Orientação', 'Literacia da informação e das mídias', 'Melhoria contínua de processos', 'Contribuição técnico-profissional']",['Seleção']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,53,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Gestão do desenvolvimento de pessoas', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,54,"['Relações institucionais', 'Literacia da informação e das mídias', 'Contribuição técnico-profissional']","['Comunicação institucional', 'Literacia da informação e das mídias']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,55,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,56,"['Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Comunicação interpessoal']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,57,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Uso de TIC', 'Foco nos resultados para os cidadãos', 'Promoção da Inclusão e Acessibilidade']",['Orientação ao cidadão']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,58,[],['Uso de TIC']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,59,"['Gerenciamento de políticas', 'Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Visão Sistêmica']",['Orientações por valores éticos']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,60,['Tomada de decisão para gestores'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,61,"['Orientação', 'Análise de evidências', 'Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Feedback e planificação', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,62,"['Gestão, proteção e compartilhamento', 'Literacia da informação e das mídias']","['Gestão do desenvolvimento de pessoas', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,63,['Comunicação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,64,"['Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,7,65,[],['Envolvimento ativo']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,66,"['Planejamento', 'Organização da rotina', 'Resolução de problemas com base em dados', 'Criação e modificação', 'Análise de problemas']",['Análise de problemas']
+ollama_deepseek_r1_70b_nomic_embed_rag,7,67,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento digital', 'Comunicação interpessoal', 'Análise de problemas']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,0,"['Análise de evidências', 'Seleção', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação', 'Feedback e planificação', 'Orientação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,1,"['Contribuição técnico-profissional', 'Prática reflexiva']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,2,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,3,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,4,"['Ensino', 'Inovação', 'Criação e modificação', 'Acessibilidade e inclusão - Docente', 'Feedback e planificação', 'Orientação', 'Seleção', 'Análise de problemas']","['Criação de conteúdo digital', 'Criação e modificação', 'Ensino', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,5,['Comunicação'],"['Colaboração profissional', 'Gestão do desenvolvimento de pessoas', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,6,"['Seleção', 'Gestão, proteção e compartilhamento', 'Orientação', 'Ensino', 'Colaboração profissional', 'Literacia da informação e das mídias']","['Criação de conteúdo digital', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Literacia da informação e das mídias', 'Seleção']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,7,"['Contribuição técnico-profissional', 'Literacia da informação e das mídias', 'Envolvimento ativo', 'Gestão da qualidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,8,"['Literacia da informação e das mídias', 'Contribuição técnico-profissional']",['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,9,"['Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento', 'Ensino', 'Feedback e planificação']","['Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,10,"['Orientação ao cidadão', 'Gestão da qualidade', 'Visão Sistêmica', 'Melhoria contínua de processos', 'Literacia da informação e das mídias']","['Foco nos resultados para os cidadãos', 'Gerenciamento de recursos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,11,"['Gestão do desenvolvimento de pessoas', 'Criação e modificação', 'Seleção', 'Uso de TIC', 'Orientação', 'Envolvimento ativo']","['Aprendizagem autorregulada', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,12,"['Ensino', 'Análise de evidências', 'Feedback e planificação', 'Seleção', 'Criação e modificação', 'Literacia da informação e das mídias', 'Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Orientação']","['Análise de evidências', 'Ensino', 'Estratégias de avaliação', 'Feedback e planificação', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,13,"['Melhoria contínua de processos', 'Literacia da informação e das mídias']",['Gestão do desenvolvimento de pessoas']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,14,[],"['Desenvolvimento Profissional Contínuo (DPC) digital', 'Ensino', 'Foco nos resultados para os cidadãos']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,15,"['Gestão da qualidade', 'Criação e modificação', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Melhoria contínua de processos']","['Inovação', 'Mentalidade Digital', 'Trabalho em equipe', 'Visão Sistêmica']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,16,"['Tomada de decisão para gestores', 'Análise de problemas', 'Orientações por valores éticos']","['Foco nos resultados para os cidadãos', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,17,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Ensino', 'Envolvimento ativo', 'Gestão, proteção e compartilhamento', 'Feedback e planificação', 'Orientação', 'Criação e modificação', 'Seleção', 'Literacia da informação e das mídias']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Gestão do desenvolvimento de pessoas', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,18,"['Comunicação interpessoal', 'Literacia da informação e das mídias', 'Orientação ao cidadão', 'Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente']","['Comunicação', 'Comunicação e colaboração digital', 'Comunicação efetiva', 'Comunicação institucional', 'Comunicação interpessoal', 'Criação de conteúdo digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Orientação ao cidadão', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,19,"['Ensino', 'Criação e modificação']","['Aprendizagem autorregulada', 'Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,20,"['Gerenciamento de políticas', 'Foco nos resultados para os cidadãos']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,21,['Criação e modificação'],"['Análise de evidências', 'Estratégias de avaliação', 'Feedback e planificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,22,['Contribuição técnico-profissional'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,23,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção']","['Comunicação e colaboração digital', 'Criação de conteúdo digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,24,"['Comunicação interpessoal', 'Comunicação efetiva', 'Liderança eficaz', 'Comunicação', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe']",['Comunicação interpessoal']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,25,"['Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Seleção', 'Criação de conteúdo digital']","['Ensino', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,26,"['Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Comunicação']","['Comunicação', 'Comunicação efetiva', 'Comunicação interpessoal', 'Promoção da Inclusão e Acessibilidade', 'Relações institucionais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,27,['Envolvimento ativo'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,28,"['Envolvimento ativo', 'Criação e modificação', 'Feedback e planificação', 'Ensino', 'Seleção', 'Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,29,['Uso de TIC'],"['Criação de conteúdo digital', 'Criação e modificação', 'Gerenciamento digital', 'Mentalidade Digital', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,30,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento da mudança', 'Comunicação interpessoal']","['Gestão do trabalho em equipe', 'Liderança eficaz', 'Trabalho em equipe']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,31,"['Aprendizagem colaborativa', 'Trabalho em equipe']","['Aprendizagem colaborativa', 'Envolvimento ativo']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,32,"['Comunicação interpessoal', 'Gerenciamento de recursos', 'Contribuição técnico-profissional']","['Contribuição técnico-profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,33,"['Inovação', 'Uso de TIC', 'Criação e modificação', 'Gestão do desenvolvimento de pessoas', 'Literacia da informação e das mídias', 'Melhoria contínua de processos', 'Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Orientação ao cidadão']","['Aprendizagem colaborativa', 'Ensino', 'Envolvimento ativo', 'Estratégias de avaliação', 'Literacia da informação e das mídias', 'Orientação', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,34,"['Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Gestão da qualidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,35,"['Promoção da Inclusão e Acessibilidade', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Criação e modificação', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,36,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Tomada de decisão para gestores']","['Foco nos resultados para os cidadãos', 'Liderança eficaz']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,37,[],"['Orientação ao cidadão', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,38,"['Planejamento', 'Literacia da informação e das mídias', 'Criação e modificação', 'Inovação']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,39,[],['Gerenciamento de recursos']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,40,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Seleção', 'Diferenciação e personalização', 'Literacia da informação e das mídias', 'Feedback e planificação', 'Orientação', 'Comunicação e colaboração digital', 'Aprendizagem autorregulada']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização', 'Ensino', 'Promoção da Inclusão e Acessibilidade', 'Prática reflexiva']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,41,"['Gestão, proteção e compartilhamento', 'Criação e modificação', 'Ensino', 'Seleção', 'Literacia da informação e das mídias', 'Feedback e planificação', 'Diferenciação e personalização']","['Criação de conteúdo digital', 'Criação e modificação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,42,['Gerenciamento da mudança'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,43,"['Ensino', 'Seleção', 'Criação e modificação', 'Envolvimento ativo', 'Feedback e planificação', 'Gestão, proteção e compartilhamento']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,44,"['Ensino', 'Seleção', 'Criação e modificação', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Feedback e planificação', 'Orientação', 'Envolvimento ativo', 'Análise de evidências']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,45,"['Melhoria contínua de processos', 'Visão Sistêmica', 'Inovação', 'Gestão da qualidade', 'Gerenciamento da mudança', 'Orientação ao cidadão', 'Gerenciamento de políticas']","['Gerenciamento de recursos', 'Inovação', 'Planejamento']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,46,"['Criação e modificação', 'Ensino', 'Gestão, proteção e compartilhamento', 'Seleção', 'Feedback e planificação', 'Orientação', 'Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,47,"['Gestão do trabalho em equipe', 'Gestão do desenvolvimento de pessoas', 'Trabalho em equipe', 'Gestão da qualidade', 'Contribuição técnico-profissional']","['Gestão do trabalho em equipe', 'Mentalidade Digital']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,48,"['Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Ensino', 'Orientação']",['Acessibilidade e inclusão - Docente']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,49,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade', 'Criação e modificação', 'Seleção', 'Gestão, proteção e compartilhamento', 'Feedback e planificação']","['Acessibilidade e inclusão - Docente', 'Diferenciação e personalização']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,50,"['Gestão do desenvolvimento de pessoas', 'Feedback e planificação', 'Uso de TIC', 'Seleção', 'Gestão, proteção e compartilhamento', 'Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Envolvimento ativo', 'Literacia da informação e das mídias', 'Orientação ao cidadão']","['Desenvolvimento Profissional Contínuo (DPC) digital', 'Estratégias de avaliação', 'Planejamento', 'Resolução de problemas com base em dados', 'Resolução de problemas digitais']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,51,"['Gestão do trabalho em equipe', 'Uso de TIC', 'Melhoria contínua de processos', 'Gerenciamento da mudança']","['Colaboração profissional', 'Desenvolvimento Profissional Contínuo (DPC) digital', 'Gerenciamento da mudança', 'Gerenciamento de recursos', 'Gerenciamento digital', 'Gestão do desenvolvimento de pessoas', 'Gestão do trabalho em equipe', 'Inovação', 'Mentalidade Digital', 'Organização da rotina', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,52,"['Envolvimento ativo', 'Inovação', 'Criação e modificação', 'Orientação', 'Literacia da informação e das mídias', 'Melhoria contínua de processos', 'Contribuição técnico-profissional']",['Seleção']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,53,"['Promoção da Inclusão e Acessibilidade', 'Acessibilidade e inclusão - Docente', 'Gestão do desenvolvimento de pessoas', 'Comunicação interpessoal']","['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,54,"['Relações institucionais', 'Literacia da informação e das mídias', 'Contribuição técnico-profissional']","['Comunicação institucional', 'Literacia da informação e das mídias']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,55,"['Acessibilidade e inclusão - Docente', 'Promoção da Inclusão e Acessibilidade']",['Comunicação efetiva']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,56,"['Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Comunicação interpessoal']",['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,57,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Uso de TIC', 'Foco nos resultados para os cidadãos', 'Promoção da Inclusão e Acessibilidade']",['Orientação ao cidadão']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,58,[],['Uso de TIC']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,59,"['Gerenciamento de políticas', 'Orientação ao cidadão', 'Foco nos resultados para os cidadãos', 'Visão Sistêmica']",['Orientações por valores éticos']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,60,['Tomada de decisão para gestores'],['Planejamento']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,61,"['Orientação', 'Análise de evidências', 'Acessibilidade e inclusão - Docente', 'Criação e modificação', 'Feedback e planificação', 'Literacia da informação e das mídias']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,62,"['Gestão, proteção e compartilhamento', 'Literacia da informação e das mídias']","['Gestão do desenvolvimento de pessoas', 'Uso de TIC']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,63,['Comunicação'],"['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,64,"['Acessibilidade e inclusão - Docente', 'Literacia da informação e das mídias', 'Gestão, proteção e compartilhamento', 'Comunicação institucional']","['Ensino', 'Orientação']"
+ollama_deepseek_r1_70b_nomic_embed_rag,10,65,[],['Envolvimento ativo']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,66,"['Planejamento', 'Organização da rotina', 'Resolução de problemas com base em dados', 'Criação e modificação', 'Análise de problemas']",['Análise de problemas']
+ollama_deepseek_r1_70b_nomic_embed_rag,10,67,"['Orientação ao cidadão', 'Literacia da informação e das mídias', 'Gestão do desenvolvimento de pessoas', 'Gerenciamento digital', 'Comunicação interpessoal', 'Análise de problemas']",['Gerenciamento de recursos']

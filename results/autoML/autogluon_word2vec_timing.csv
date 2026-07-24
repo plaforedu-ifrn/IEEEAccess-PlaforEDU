@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+autogluon,word2vec,474.6795718999929,1.0949698999756947,0.016102498529054335

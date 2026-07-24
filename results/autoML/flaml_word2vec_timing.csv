@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+flaml,word2vec,605.2986533999792,0.039393700018990785,0.000579319117926335

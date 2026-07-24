@@ -1,0 +1,2 @@
+method,k,micro_f1,macro_f1,hamming_loss,subset_accuracy,precision_at_k,recall_at_k,partial_hit_at_k,lrap,coverage_error,n_samples,n_labels
+rf,7,0.32,0.18951355720950738,0.12264150943396226,0.0,0.2184873949579832,0.641224216959511,0.8529411764705882,0.5235319325434152,16.602941176470587,68,53

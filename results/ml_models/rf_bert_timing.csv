@@ -1,0 +1,2 @@
+method,embedding_type,train_seconds,inference_seconds,inference_seconds_per_sample
+rf,bert,20.009558099962305,1.2557708999956958,0.018467219117583762

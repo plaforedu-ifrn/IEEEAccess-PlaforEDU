@@ -1,0 +1,2 @@
+method,k,micro_f1,macro_f1,hamming_loss,subset_accuracy,precision_at_k,recall_at_k,partial_hit_at_k,lrap,coverage_error,n_samples,n_labels
+autokeras,7,0.11076923076923077,0.016521787012491698,0.16037735849056603,0.0,0.07563025210084033,0.23050993124522537,0.45588235294117646,0.17197227947782884,53.0,68,53

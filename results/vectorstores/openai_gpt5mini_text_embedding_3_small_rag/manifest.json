@@ -1,0 +1,380 @@
+{
+  "provider": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "retriever_top_k": 10,
+  "competencies": [
+    {
+      "text": "ID: 161fd267-d68a-4f88-925c-8082f17fb8b2\nName: Acessibilidade e inclusão - Docente\nDescription: Garantir acessibilidade a recursos e atividades de aprendizagem para todos os(as) estudantes, incluindo os que têm necessidades especiais. Ter em consideração e dar resposta às expetativas, capacidades, usos e conceções errôneas (digitais) dos(as) estudantes, bem como ao uso contextual, físico e cognitivo que fazem das tecnologias digitais.",
+      "metadata": {
+        "comp_id": "161fd267-d68a-4f88-925c-8082f17fb8b2",
+        "comp_name": "Acessibilidade e inclusão - Docente"
+      }
+    },
+    {
+      "text": "ID: 12052eae-22a2-44ce-a8ff-07f5b5a8f816\nName: Análise de evidências\nDescription: Produzir, selecionar, analisar criticamente e interpretar evidências digitais sobre a atividade, desempenho e progresso do(a) estudante, de modo a informar o ensino e aprendizagem.",
+      "metadata": {
+        "comp_id": "12052eae-22a2-44ce-a8ff-07f5b5a8f816",
+        "comp_name": "Análise de evidências"
+      }
+    },
+    {
+      "text": "ID: a549fa72-ae42-433f-85bd-29badf2851c0\nName: Análise de problemas\nDescription: Identificar tempestivamente os problemas a serem resolvidos, os recursos para enfrentá-los, as alternativas possíveis, seus custos e riscos, antes de tomar a decisão no nível que lhes corresponde.",
+      "metadata": {
+        "comp_id": "a549fa72-ae42-433f-85bd-29badf2851c0",
+        "comp_name": "Análise de problemas"
+      }
+    },
+    {
+      "text": "ID: b64634ab-e0ca-42a8-a95d-b8670598488b\nName: Aprendizagem autorregulada\nDescription: Usar tecnologias digitais para apoiar a aprendizagem autorregulada dos(as) estudantes, isto é, permitir que planejem, acompanhem e reflitam sobre a sua própria\naprendizagem, forneçam evidências de progresso, compartilhem ideias e encontrem soluções criativas.\n",
+      "metadata": {
+        "comp_id": "b64634ab-e0ca-42a8-a95d-b8670598488b",
+        "comp_name": "Aprendizagem autorregulada"
+      }
+    },
+    {
+      "text": "ID: 5a036b8e-1546-48ea-a616-2890f9904d4c\nName: Aprendizagem colaborativa\nDescription: Usar tecnologias digitais para promover e melhorar a colaboração do(a) estudante. Permitir que os(as) estudantes usem tecnologias digitais enquanto parte de tarefas colaborativas, como meio de melhorar a comunicação, a colaboração e a criação colaborativa de conhecimento.",
+      "metadata": {
+        "comp_id": "5a036b8e-1546-48ea-a616-2890f9904d4c",
+        "comp_name": "Aprendizagem colaborativa"
+      }
+    },
+    {
+      "text": "ID: 179ee2c7-90c8-4f00-8cc0-02f63a056062\nName: Colaboração profissional\nDescription: Usar tecnologias digitais para colaborar com outros educadores, compartilhar e trocar conhecimento e experiências, bem como para inovar práticas pedagógicas de forma colaborativa.",
+      "metadata": {
+        "comp_id": "179ee2c7-90c8-4f00-8cc0-02f63a056062",
+        "comp_name": "Colaboração profissional"
+      }
+    },
+    {
+      "text": "ID: 1e52ca6e-ca19-4585-a66e-f6adc3013a74\nName: Comunicação\nDescription: Capacidade de escutar, indagar e expressar conceitos e ideias nos momentos apropriados e de forma efetiva, garantindo uma dinâmica produtiva das interações internas e externas.",
+      "metadata": {
+        "comp_id": "1e52ca6e-ca19-4585-a66e-f6adc3013a74",
+        "comp_name": "Comunicação"
+      }
+    },
+    {
+      "text": "ID: 6461c25c-1491-4610-8ee0-2029d77fa61d\nName: Comunicação e colaboração digital\nDescription: Incorporar atividades, tarefas e avaliações de aprendizagem que requeiram que os(as) estudantes usem, eficaz e responsavelmente, tecnologias digitais para comunicação, colaboração e participação cívica.",
+      "metadata": {
+        "comp_id": "6461c25c-1491-4610-8ee0-2029d77fa61d",
+        "comp_name": "Comunicação e colaboração digital"
+      }
+    },
+    {
+      "text": "ID: 45d29970-ecb3-4e4a-b57b-4850c9b6d98f\nName: Comunicação efetiva\nDescription: Estabelecer comunicação efetiva e positiva com superiores hierárquicos, pares e cidadãos, tanto na expressão escrita e verbal quanto corporal.",
+      "metadata": {
+        "comp_id": "45d29970-ecb3-4e4a-b57b-4850c9b6d98f",
+        "comp_name": "Comunicação efetiva"
+      }
+    },
+    {
+      "text": "ID: cdbece75-961d-4176-b34b-66e1a530dcf2\nName: Comunicação institucional\nDescription: Usar tecnologias digitais para melhorar a comunicação institucional com os(as) estudantes, pais ou responsáveis e terceiros. Contribuir colaborativamente para desenvolver e melhorar as estratégias de comunicação institucional.",
+      "metadata": {
+        "comp_id": "cdbece75-961d-4176-b34b-66e1a530dcf2",
+        "comp_name": "Comunicação institucional"
+      }
+    },
+    {
+      "text": "ID: 3418004f-90fd-4a64-bb7c-fab6c1f8f6cc\nName: Comunicação interpessoal\nDescription: Iniciar e manter comunicações respeitosas e cordiais; transmitir de forma transparente e comportamento estável, informações e gestos, mensagens orais e de texto claros, concisos, fiáveis e apropriados para o destinatário. Atender ativamente informações, consultas, divergências e mensagens de terceiros com uma atitude construtiva e empática.",
+      "metadata": {
+        "comp_id": "3418004f-90fd-4a64-bb7c-fab6c1f8f6cc",
+        "comp_name": "Comunicação interpessoal"
+      }
+    },
+    {
+      "text": "ID: f3b6f7b4-9434-4fd4-a2af-5ce9bb4b2743\nName: Contribuição técnico-profissional\nDescription: Disponibilizar à Administração seu conhecimento profissional específico e suas experiências anteriores, gerenciando a  atualização de seus conhecimentos especializados.",
+      "metadata": {
+        "comp_id": "f3b6f7b4-9434-4fd4-a2af-5ce9bb4b2743",
+        "comp_name": "Contribuição técnico-profissional"
+      }
+    },
+    {
+      "text": "ID: 8f9fe3a9-ae88-46cc-a823-6a92c28243f2\nName: Criação de conteúdo digital\nDescription: Incorporar atividades, tarefas e avaliações de aprendizagem que requeiram que os(as) estudantes se expressem através de meios digitais, modifiquem e criem conteúdo digital em diferentes formatos. Ensinar aos(às) estudantes como os direitos de autor e as licenças se aplicam ao conteúdo digital, como referenciar fontes e atribuir licenças.",
+      "metadata": {
+        "comp_id": "8f9fe3a9-ae88-46cc-a823-6a92c28243f2",
+        "comp_name": "Criação de conteúdo digital"
+      }
+    },
+    {
+      "text": "ID: 84b2a6b0-c670-4a34-a04f-594a0b4c1d4a\nName: Criação e modificação\nDescription: Modificar e desenvolver recursos existentes com licença aberta e outros recursos onde tal é permitido. Criar ou cocriar novos recursos educacionais digitais. Ter em\nconsideração o objetivo específico de aprendizagem, o contexto, a abordagem pedagógica e o grupo de estudantes, ao selecionar recursos digitais e planificar a sua utilização.",
+      "metadata": {
+        "comp_id": "84b2a6b0-c670-4a34-a04f-594a0b4c1d4a",
+        "comp_name": "Criação e modificação"
+      }
+    },
+    {
+      "text": "ID: 74347817-89b5-47e7-9c5d-6c07c69690fa\nName: Desenvolvimento Profissional Contínuo (DPC) digital\nDescription: Usar fontes e recursos digitais para desenvolvimento profissional contínuo.",
+      "metadata": {
+        "comp_id": "74347817-89b5-47e7-9c5d-6c07c69690fa",
+        "comp_name": "Desenvolvimento Profissional Contínuo (DPC) digital"
+      }
+    },
+    {
+      "text": "ID: bf6ee8ab-b64b-48fb-ad5a-738548fc2302\nName: Diferenciação e personalização\nDescription:  \n \t\nUsar tecnologias digitais para atender às diversas necessidades de aprendizagem dos(as) estudantes, permitindo que estes progridam a diferentes níveis e velocidades e sigam caminhos e objetivos de aprendizagem individuais.",
+      "metadata": {
+        "comp_id": "bf6ee8ab-b64b-48fb-ad5a-738548fc2302",
+        "comp_name": "Diferenciação e personalização"
+      }
+    },
+    {
+      "text": "ID: e4f31519-2fad-4fe8-b476-5da4715a16e9\nName: Ensino\nDescription: Planificar e implementar dispositivos e recursos digitais no processo de ensino, de modo a melhorar a eficácia das intervenções pedagógicas. Gerir e orquestrar  adequadamente estratégias de ensino digital. Experimentar e desenvolver novos formatos e métodos pedagógicos para o ensino.",
+      "metadata": {
+        "comp_id": "e4f31519-2fad-4fe8-b476-5da4715a16e9",
+        "comp_name": "Ensino"
+      }
+    },
+    {
+      "text": "ID: fa3b0d3e-857f-4d3b-839d-3d06a726a986\nName: Envolvimento ativo\nDescription: Usar tecnologias digitais para promover o envolvimento ativo e criativo dos(as) estudantes com um assunto específico. Usar tecnologias digitais no âmbito de estratégias pedagógicas que fomentem as competências transversais dos(as) estudantes, a reflexão profunda e a expressão criativa. Abrir a aprendizagem a novos contextos do mundo real, que envolvam os(as) próprios(as) estudantes em atividades práticas, investigação científica ou resolução de problemas complexos,\nou que, de outros modos, aumentem o seu envolvimento ativo em temas\ncomplexos.",
+      "metadata": {
+        "comp_id": "fa3b0d3e-857f-4d3b-839d-3d06a726a986",
+        "comp_name": "Envolvimento ativo"
+      }
+    },
+    {
+      "text": "ID: 30521bbb-e702-47d7-a287-b242cf5bf600\nName: Estratégias de avaliação\nDescription: Usar tecnologias digitais para a avaliação formativa e sumativa. Melhorar a diversidade e adequação dos formatos e abordagens de avaliação.",
+      "metadata": {
+        "comp_id": "30521bbb-e702-47d7-a287-b242cf5bf600",
+        "comp_name": "Estratégias de avaliação"
+      }
+    },
+    {
+      "text": "ID: c6d771e2-d2a0-443d-b615-b0c813965e99\nName: Feedback e planificação\nDescription: Usar tecnologias digitais para fornecer feedback oportuno e direcionado aos(às) estudantes. Adaptar estratégias de ensino e proporcionar apoio direcionado,\ncom base nas evidências geradas pelas tecnologias digitais utilizadas. Permitir que estudantes e pais ou responsáveis  compreendam as evidências fornecidas pelas tecnologias digitais e as usem para tomada de decisão.",
+      "metadata": {
+        "comp_id": "c6d771e2-d2a0-443d-b615-b0c813965e99",
+        "comp_name": "Feedback e planificação"
+      }
+    },
+    {
+      "text": "ID: 49c18cc9-d9c1-4c6c-a72b-a064e0e6e3eb\nName: Foco nos resultados para os cidadãos\nDescription: Capacidade de superar o desempenho padrão e apresentar soluções alinhadas\nao cumprimento de metas e ao alcance dos objetivos estratégicos das organizações públicas para garantir o atendimento das necessidades dos usuários e dos cidadãos.",
+      "metadata": {
+        "comp_id": "49c18cc9-d9c1-4c6c-a72b-a064e0e6e3eb",
+        "comp_name": "Foco nos resultados para os cidadãos"
+      }
+    },
+    {
+      "text": "ID: e2b3c5ad-e0a6-4433-9ffd-ca78825a2e4d\nName: Gerenciamento da mudança\nDescription: Antecipar e promover mudanças estratégicas/operacionais para responder às mudanças do contexto. Redesenhar/modernizar abordagens, processos, tarefas e competências requeridos pelo novo contexto, distribuindo responsabilidades e perseguindo resultados.",
+      "metadata": {
+        "comp_id": "e2b3c5ad-e0a6-4433-9ffd-ca78825a2e4d",
+        "comp_name": "Gerenciamento da mudança"
+      }
+    },
+    {
+      "text": "ID: a3a55daf-faf9-41e2-81eb-613b8c94fad1\nName: Gerenciamento de políticas\nDescription: Contribuir para a coerência estratégica da gestão de políticas, articulando e complementando os objetivos e resultados das organizações; desempenhar o papel de liderança no âmbito das políticas públicas promovidas pelo Alto Governo.",
+      "metadata": {
+        "comp_id": "a3a55daf-faf9-41e2-81eb-613b8c94fad1",
+        "comp_name": "Gerenciamento de políticas"
+      }
+    },
+    {
+      "text": "ID: 3a910f03-4c71-4606-93cd-179056019b11\nName: Gerenciamento de recursos\nDescription: Preservar critérios de eficácia e eficiência na administração de recursos materiais, das competências das pessoas e dos ativos de uso da organização.",
+      "metadata": {
+        "comp_id": "3a910f03-4c71-4606-93cd-179056019b11",
+        "comp_name": "Gerenciamento de recursos"
+      }
+    },
+    {
+      "text": "ID: 6a6c1fb3-6126-406e-80b1-fd587d3b5a25\nName: Gerenciamento digital\nDescription: Reconhecer efetivamente o direito dos cidadãos à informação pública e à interação com serviços no ambiente digital, garantindo canais efetivos para requisição de serviços, pedidos, consultas, procedimentos, acompanhamento e resolução remotos.",
+      "metadata": {
+        "comp_id": "6a6c1fb3-6126-406e-80b1-fd587d3b5a25",
+        "comp_name": "Gerenciamento digital"
+      }
+    },
+    {
+      "text": "ID: 7a8fc826-b1a6-4d1a-854d-9782c417ee0f\nName: Gestão da qualidade\nDescription: Conduzir a área de gestão encarregada de padronizar boas práticas processuais, no âmbito do paradigma da qualidade; gerando serviços internos ou externos seguros e confiáveis, de acordo com indicadores pré-estabelecidos em termos de legislação vigente e padrões de qualidade aplicáveis.",
+      "metadata": {
+        "comp_id": "7a8fc826-b1a6-4d1a-854d-9782c417ee0f",
+        "comp_name": "Gestão da qualidade"
+      }
+    },
+    {
+      "text": "ID: 432c5350-bdb8-4e22-b7a4-0417e9cfa8f4\nName: Gestão do desenvolvimento de pessoas\nDescription: Forjar um ambiente de trabalho em que os interesses de equipes e indivíduos se harmonizem com os objetivos e resultados da organização, gerando oportunidades de aprendizado e desenvolvimento, bem como incentivos para reforçar o desempenho excepcional.",
+      "metadata": {
+        "comp_id": "432c5350-bdb8-4e22-b7a4-0417e9cfa8f4",
+        "comp_name": "Gestão do desenvolvimento de pessoas"
+      }
+    },
+    {
+      "text": "ID: d766e5b6-9c57-4a3a-92cb-4ff0687ad701\nName: Gestão do trabalho em equipe\nDescription: Criar e participar de equipes de trabalho para promover um ambiente produtivo e aprimorar habilidades diferenciadas entre as pessoas; compartilhando recursos e informações para alcançar melhores resultados.",
+      "metadata": {
+        "comp_id": "d766e5b6-9c57-4a3a-92cb-4ff0687ad701",
+        "comp_name": "Gestão do trabalho em equipe"
+      }
+    },
+    {
+      "text": "ID: 4c081af1-b613-4465-b989-2a4b09d76e0e\nName: Gestão para resultados\nDescription: No description available.",
+      "metadata": {
+        "comp_id": "4c081af1-b613-4465-b989-2a4b09d76e0e",
+        "comp_name": "Gestão para resultados"
+      }
+    },
+    {
+      "text": "ID: 93a78bdb-6f5f-4a1a-a012-82eb8b9db4d8\nName: Gestão, proteção e compartilhamento\nDescription: Organizar conteúdo digital e disponibilizá-lo aos(às) estudantes, pais ou responsáveis e outros educadores. Proteger eficazmente conteúdo digital sensível. Respeitar e aplicar corretamente regras de privacidade e de direitos de autor. Compreender a utilização e criação de licenças abertas e de recursos educacionais abertos, incluindo a sua atribuição apropriada.",
+      "metadata": {
+        "comp_id": "93a78bdb-6f5f-4a1a-a012-82eb8b9db4d8",
+        "comp_name": "Gestão, proteção e compartilhamento"
+      }
+    },
+    {
+      "text": "ID: 4be87cc2-7a58-4885-8970-8f49249d43d5\nName: Inovação\nDescription: Forjar um clima de interesse para soluções inovadoras que melhorem a eficiência das respostas aos cidadãos em termos de informações, processos, tecnologias, resultados e impactos da gestão pública.",
+      "metadata": {
+        "comp_id": "4be87cc2-7a58-4885-8970-8f49249d43d5",
+        "comp_name": "Inovação"
+      }
+    },
+    {
+      "text": "ID: 1c596a8d-dff3-46ca-a684-8eb59b20800c\nName: Liderança eficaz\nDescription: Dirigir equipes, otimizando a aplicação de talentos disponíveis e criando um ambiente positivo e comprometido para a obtenção de resultados.",
+      "metadata": {
+        "comp_id": "1c596a8d-dff3-46ca-a684-8eb59b20800c",
+        "comp_name": "Liderança eficaz"
+      }
+    },
+    {
+      "text": "ID: c384e3a1-5506-4ceb-a72e-b3c73a105ae1\nName: Literacia da informação e das mídias\nDescription: Incorporar atividades, tarefas e avaliações de aprendizagem que requeiram que os(as) estudantes articulem necessidades de informação; encontrem informação e recursos em ambientes digitais; organizem, processem, analisem e interpretem informação; e comparem e avaliem criticamente a credibilidade e a fiabilidade da informação e das suas fontes.",
+      "metadata": {
+        "comp_id": "c384e3a1-5506-4ceb-a72e-b3c73a105ae1",
+        "comp_name": "Literacia da informação e das mídias"
+      }
+    },
+    {
+      "text": "ID: 494c1fac-1723-4cfb-b8ee-4e6472ae59c7\nName: Melhoria contínua de processos\nDescription: Propor e introduzir ações para acelerar a melhoria contínua e a produtividade das tarefas sob sua responsabilidade, em atenção aos requisitos de qualidade.",
+      "metadata": {
+        "comp_id": "494c1fac-1723-4cfb-b8ee-4e6472ae59c7",
+        "comp_name": "Melhoria contínua de processos"
+      }
+    },
+    {
+      "text": "ID: 20e05dca-55d6-4609-ade9-a774c1362b62\nName: Mentalidade Digital\nDescription: Capacidade de integrar as tecnologias digitais com: os modelos de gestão; os processos de tomada de decisão e geração de produtos e serviços; e os\nmeios de comunicação interna, externa e de relacionamento com usuários.",
+      "metadata": {
+        "comp_id": "20e05dca-55d6-4609-ade9-a774c1362b62",
+        "comp_name": "Mentalidade Digital"
+      }
+    },
+    {
+      "text": "ID: 293f465f-d8b5-44f4-a285-5aa095625979\nName: Organização da rotina\nDescription: Definir o programa semanal e mensal de atividades, no âmbito do plano institucional, determinando os resultados a serem alcançados, as tarefas a serem executadas, os procedimentos a serem resolvidos e os atrasos a serem corrigidos, bem como os custos e insumos necessários para alcançá-lo. ",
+      "metadata": {
+        "comp_id": "293f465f-d8b5-44f4-a285-5aa095625979",
+        "comp_name": "Organização da rotina"
+      }
+    },
+    {
+      "text": "ID: 3062277b-4218-4f2b-8645-90ba3651fc52\nName: Orientação\nDescription: Usar tecnologias e serviços digitais para melhorar a interação com os(as) estudantes,individual e coletivamente, dentro e fora da sessão de aprendizagem. Usar tecnologias digitais para proporcionar orientação e assistência oportuna e dirigida. Experimentar e desenvolver novas formas e formatos para oferecer orientação e apoio.",
+      "metadata": {
+        "comp_id": "3062277b-4218-4f2b-8645-90ba3651fc52",
+        "comp_name": "Orientação"
+      }
+    },
+    {
+      "text": "ID: 7da372c6-cd33-423c-b365-dff0fd5faa8f\nName: Orientação ao cidadão\nDescription: Conduzir e organizar o atendimento aos cidadãos, com mecanismos acessíveis, linguagem inteligível e procedimentos ágeis voltados à satisfação de procedimentos, reclamações, dúvidas e propostas. Quantificar, através de indicadores pré-estabelecidos, o grau de satisfação com os resultados gerenciais e a qualidade da resolução de conflitos e reclamações.",
+      "metadata": {
+        "comp_id": "7da372c6-cd33-423c-b365-dff0fd5faa8f",
+        "comp_name": "Orientação ao cidadão"
+      }
+    },
+    {
+      "text": "ID: 64680a3e-e14c-4702-8970-00f96284e671\nName: Orientações por valores éticos\nDescription: Capacidade de agir de acordo com princípios e valores morais que norteiam o exercício da função pública, tais como responsabilidade, integridade, retidão, transparência e equidade na gestão da res publica.",
+      "metadata": {
+        "comp_id": "64680a3e-e14c-4702-8970-00f96284e671",
+        "comp_name": "Orientações por valores éticos"
+      }
+    },
+    {
+      "text": "ID: 0accb9d5-dbd1-483f-ab2a-ee0ca1c22de4\nName: Planejamento\nDescription: Identificar problemas prioritários e oportunidades de sua unidade para projetar planos, programas ou projetos que prefixam objetivos, atividades, recursos, custos, cronogramas, responsáveis e indicadores de progresso, resultados e impacto.",
+      "metadata": {
+        "comp_id": "0accb9d5-dbd1-483f-ab2a-ee0ca1c22de4",
+        "comp_name": "Planejamento"
+      }
+    },
+    {
+      "text": "ID: 6815ce74-37f5-40d0-ac92-285d0c126ee9\nName: Promoção da Inclusão e Acessibilidade\nDescription: Planejar, implementar e/ou monitorar políticas institucionais, educacionais e administrativas que garantam a inclusão de pessoas com deficiência, assegurando o cumprimento da legislação vigente, especialmente a Lei Brasileira de Inclusão (LBI). Além disso, prestar atendimento adequado, promovendo ambientes e práticas acessíveis, equitativos e livres de barreiras físicas, tecnológicas, pedagógicas, comunicacionais e atitudinais.",
+      "metadata": {
+        "comp_id": "6815ce74-37f5-40d0-ac92-285d0c126ee9",
+        "comp_name": "Promoção da Inclusão e Acessibilidade"
+      }
+    },
+    {
+      "text": "ID: 30db1816-b75d-4364-855e-f1d09b0b6016\nName: Prática reflexiva\nDescription: Refletir individualmente e coletivamente, avaliar criticamente e desenvolver ativamente sua prática pedagógica digital e a da sua comunidade educativa.",
+      "metadata": {
+        "comp_id": "30db1816-b75d-4364-855e-f1d09b0b6016",
+        "comp_name": "Prática reflexiva"
+      }
+    },
+    {
+      "text": "ID: b8ff33cf-392b-4019-b275-85e6df87a2a9\nName: Relações institucionais\nDescription: Promover a qualidade dos relacionamentos regulares e criar novos relacionamentos necessários para a consecução dos interesses da sua organização. Fortalecer a imagem corporativa, fazendo apresentações em público, planejando a mensagem a ser transmitida e seu objetivo de acordo com o tipo de público.",
+      "metadata": {
+        "comp_id": "b8ff33cf-392b-4019-b275-85e6df87a2a9",
+        "comp_name": "Relações institucionais"
+      }
+    },
+    {
+      "text": "ID: 4667ae96-35b0-435a-87f5-e21af9c1086d\nName: Resolução de problemas com base em dados\nDescription: Capacidade de idear soluções inovadoras e efetivas para problemas de baixa, média ou elevada complexidade com a utilização de dados (numéricos e não numéricos) e evidências que aumentem a precisão e viabilidade das soluções.",
+      "metadata": {
+        "comp_id": "4667ae96-35b0-435a-87f5-e21af9c1086d",
+        "comp_name": "Resolução de problemas com base em dados"
+      }
+    },
+    {
+      "text": "ID: 2e82da93-1754-4c16-8932-4ecd7695c246\nName: Resolução de problemas digitais\nDescription: Incorporar atividades, tarefas e avaliações de aprendizagem que requeiram que os(as) estudantes identifiquem e resolvam problemas técnicos ou transfiram criativamente conhecimento tecnológico para novas situações.",
+      "metadata": {
+        "comp_id": "2e82da93-1754-4c16-8932-4ecd7695c246",
+        "comp_name": "Resolução de problemas digitais"
+      }
+    },
+    {
+      "text": "ID: bb6db702-1fd8-40b5-abeb-e067768c5def\nName: Seleção\nDescription: Identificar, avaliar e selecionar recursos digitais para o ensino e aprendizagem. \nTer em consideração o objetivo específico de aprendizagem, o contexto, a abordagem pedagógica e o grupo de estudantes, ao selecionar recursos digitais e planificar a sua utilização.",
+      "metadata": {
+        "comp_id": "bb6db702-1fd8-40b5-abeb-e067768c5def",
+        "comp_name": "Seleção"
+      }
+    },
+    {
+      "text": "ID: 1c04b88f-1be5-4ae0-b173-3a00c0f5b253\nName: Tomada de decisão\nDescription: Decidir sobre as questões sob sua responsabilidade mobilizando critérios de economia, eficácia, eficiência e transparência.",
+      "metadata": {
+        "comp_id": "1c04b88f-1be5-4ae0-b173-3a00c0f5b253",
+        "comp_name": "Tomada de decisão"
+      }
+    },
+    {
+      "text": "ID: c769606e-9f97-4fab-b9c9-51eb99e3bd44\nName: Tomada de decisão para gestores\nDescription: Adotar e informar decisões prévias, explorando alternativas para minimizar custos e aumentar as vantagens para a organização na questão que for decidida.",
+      "metadata": {
+        "comp_id": "c769606e-9f97-4fab-b9c9-51eb99e3bd44",
+        "comp_name": "Tomada de decisão para gestores"
+      }
+    },
+    {
+      "text": "ID: ac12a129-92a7-44c1-bb06-6162eeb4d798\nName: Trabalho em equipe\nDescription: Capacidade de colaborar e cooperar em atividades desenvolvidas coletivamente\npara atingir metas compartilhadas e de compreender a repercussão de suas ações para o êxito ou alcance dos objetivos estabelecidos pelo grupo.",
+      "metadata": {
+        "comp_id": "ac12a129-92a7-44c1-bb06-6162eeb4d798",
+        "comp_name": "Trabalho em equipe"
+      }
+    },
+    {
+      "text": "ID: b30f6b99-0189-4c80-8977-bd7cf269ab8e\nName: Uso de TIC\nDescription: Otimizar o uso das tecnologias de informação e comunicação disponíveis, em seu efetivo potencial, para melhorar seu desempenho.",
+      "metadata": {
+        "comp_id": "b30f6b99-0189-4c80-8977-bd7cf269ab8e",
+        "comp_name": "Uso de TIC"
+      }
+    },
+    {
+      "text": "ID: 694f836a-0a94-4039-b309-1ff7b55da325\nName: Uso responsável\nDescription: Tomar medidas que garantam o bem-estar físico, psicológico e social dos(as) estudantes enquanto usam tecnologias digitais. Capacitar os(as) estudantes para gerir\nriscos e usar tecnologias digitais de forma segura e responsável.",
+      "metadata": {
+        "comp_id": "694f836a-0a94-4039-b309-1ff7b55da325",
+        "comp_name": "Uso responsável"
+      }
+    },
+    {
+      "text": "ID: e6401337-5058-40be-b0d3-b28d487e43d3\nName: Visão Sistêmica\nDescription: Capacidade de identificar os principais marcos institucionais e as tendências sociais, políticas e econômicas nos cenários local, regional, nacional e internacional. Marcos esses que podem impactar os processos decisórios e a gestão de programas e projetos no âmbito do setor público.",
+      "metadata": {
+        "comp_id": "e6401337-5058-40be-b0d3-b28d487e43d3",
+        "comp_name": "Visão Sistêmica"
+      }
+    },
+    {
+      "text": "ID: c2ec6e9a-e945-4168-b151-408d1f929935\nName: Visão estratégica\nDescription: Compreender o ambiente político e a as tendências que interferem no estado de coisas; antecipar problemas e oportunidades a médio e longo prazo para a área responsável a fim de que a gestão identifique a alternativa mais adequada a cada situação presente ou eventual, comunicando à equipe a lógica das decisões diretivas.",
+      "metadata": {
+        "comp_id": "c2ec6e9a-e945-4168-b151-408d1f929935",
+        "comp_name": "Visão estratégica"
+      }
+    }
+  ],
+  "manifest_hash": "ca346f3323af9564ac36ffc98255e4c5b86746aa66e8b9e4abddb41b8b286738",
+  "index_path": "results\\vectorstores\\openai_gpt5mini_text_embedding_3_small_rag"
+}
