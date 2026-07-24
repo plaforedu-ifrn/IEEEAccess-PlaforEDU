@@ -243,17 +243,28 @@ before running the cells.
 
 ### 5. Execute the notebooks
 
-Run the full experimental pipeline in this order:
+Run the preparation steps first, then execute the experiment notebooks needed
+for the branch you want to reproduce:
 
 ``` bash
-eda.ipynb
-processing.ipynb
-data_segregation.ipynb
-ml_models.ipynb / autoML.ipynb / autokeras.ipynb
-llm_open.ipynb / llm_proprietary.ipynb
+eda.ipynb                 # optional exploratory analysis
+processing.ipynb          # dataset.csv -> processed.csv
+data_segregation.ipynb    # processed.csv -> train.csv and test.csv
 ```
 
-The supervised and RAG/LLM notebooks export updated metrics, sensitivity-by-k tables, timing tables, configuration logs, and predictions under `results/`.
+After `train.csv` and `test.csv` are available, the experiment notebooks can
+be executed independently:
+
+``` bash
+ml_models.ipynb
+autoML.ipynb
+autokeras.ipynb
+llm_open.ipynb
+llm_proprietary.ipynb
+```
+
+Each experiment notebook exports updated metrics, sensitivity-by-k tables,
+timing tables, configuration logs, and predictions under `results/`.
 
 ### 6. Running local LLM experiments
 
