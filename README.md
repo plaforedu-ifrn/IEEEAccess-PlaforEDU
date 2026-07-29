@@ -155,6 +155,20 @@ The RAG branch evaluates four generative configurations and non-generative basel
 
 The retrieval-only baseline with `text-embedding-3-small` achieved the highest Recall@k (**0.5659**, `k=10`) and Partial Hit@k (**0.7794**, `k=10`) among RAG-related configurations, while the strongest LLM configuration achieved higher Micro-F1, Macro-F1, and Precision@k. The frequency baseline reached Recall@k of **0.4998** and Partial Hit@k of **0.7059** at `k=10`.
 
+The retrieval-only results are derived from the ranked candidates stored in the
+`retrieved_competencies` column of the RAG raw prediction files, before LLM
+filtering. To materialize these derived baselines as auditable CSV artifacts,
+run:
+
+```bash
+python scripts/generate_retrieval_only_results.py
+```
+
+This command writes `retrieval_only_text_embedding_3_small_*` under
+`results/llm_proprietary/` and `retrieval_only_nomic_embed_text_*` under
+`results/llm_open/`, including `metrics.csv`, `sensitivity_by_k.csv`,
+`predictions.csv`, `timing.csv`, and `config.json`.
+
 ### Runtime Comparison
 
 The frequency baseline had negligible runtime. Retrieval-only inference required **0.39 s/course** with `text-embedding-3-small` and **0.04 s/course** with `nomic-embed-text`. Among generative RAG configurations, the lowest runtime was obtained by GPT-4.1-mini:

@@ -1,0 +1,25 @@
+{
+  "method": "retrieval_only_text_embedding_3_small",
+  "baseline_type": "retrieval_only",
+  "embedding_model": "text-embedding-3-small",
+  "source_raw_predictions": "results/llm_proprietary/openai_gpt4.1mini_text_embedding_3_small_rag_raw_predictions.csv",
+  "source_timing": "results/llm_proprietary/openai_gpt4.1mini_text_embedding_3_small_rag_timing.csv",
+  "source_methods_with_same_retriever": [
+    "openai_gpt4.1mini_text_embedding_3_small_rag",
+    "openai_gpt5mini_text_embedding_3_small_rag"
+  ],
+  "prediction_source_column": "retrieved_competencies",
+  "label_space_source": "train.csv",
+  "test_set_source": "test.csv",
+  "k_values": [
+    1,
+    3,
+    5,
+    7,
+    10
+  ],
+  "n_samples": 68,
+  "n_labels": 53,
+  "note": "Derived from retrieved_competencies. The GPT-4.1-mini and GPT-5-mini raw files use the same OpenAI retriever configuration.",
+  "run_datetime_utc": "2026-07-29T23:08:49.965269+00:00"
+}
