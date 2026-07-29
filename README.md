@@ -57,8 +57,13 @@ The source dataset contains **342 courses** and **67 competencies**. After prepr
 - `pipeline_utils.py`
   Shared preprocessing, train/test loading, multi-label target preparation, Top-k metric computation, baseline scoring, and artifact export helpers used across the notebooks.
 
+- `scripts/`
+  Reproducibility scripts for derived experiment artifacts.
+
 - `results/`
-  Exported experiment artifacts, including metrics, sensitivity-by-k tables, predictions, timing files, configurations, raw RAG predictions, error logs, and vector stores used by the RAG branch.
+  Exported experiment artifacts, including metrics, sensitivity-by-k tables,
+  predictions, timing files, configurations, raw RAG predictions, error logs,
+  vector stores used by the RAG branch, and derived retrieval-only baselines.
 
 - `tests/`
   Unit tests for the shared pipeline utilities.
