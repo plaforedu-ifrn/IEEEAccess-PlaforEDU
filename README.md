@@ -33,6 +33,9 @@ The source dataset contains **342 courses** and **67 competencies**. After prepr
 - `data_segregation.ipynb`
   Train/test segregation step that reads `processed.csv` and exports `train.csv` and `test.csv`.
 
+- `label_support.ipynb`
+  Reports per-competency label support across `train.csv` and `test.csv`, identifying competencies with zero support in the held-out test set (reported in Table 1 of the paper).
+
 - `ml_models.ipynb`  
   Supervised multi-label baselines using TF-IDF, Word2Vec, and BERT-based representations. This notebook reads `train.csv` and `test.csv`.
 
@@ -266,9 +269,10 @@ Run the preparation steps first, then execute the experiment notebooks needed
 for the branch you want to reproduce:
 
 ``` bash
-eda.ipynb                 # optional exploratory analysis
+eda.ipynb                 # exploratory analysis
 processing.ipynb          # dataset.csv -> processed.csv
 data_segregation.ipynb    # processed.csv -> train.csv and test.csv
+label_support.ipynb       # label support of train.csv and test.csv
 ```
 
 After `train.csv` and `test.csv` are available, the experiment notebooks can
