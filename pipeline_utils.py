@@ -30,8 +30,13 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 try:
     import fcntl
-except ImportError:  # pragma: no cover - the experiment target is Linux/macOS.
+except ImportError:  # pragma: no cover - unavailable on Windows.
     fcntl = None
+
+try:
+    import msvcrt
+except ImportError:  # pragma: no cover - unavailable on POSIX systems.
+    msvcrt = None
 
 
 DEFAULT_SEED = 42
@@ -627,24 +632,61 @@ _PROVENANCE_FIELDS = (
 
 @contextmanager
 def _unit_state_lock(unit_dir):
-    if fcntl is None:
+    """Cross-platform process + thread lock for experiment state.
+
+    Uses ``fcntl.flock`` on POSIX and ``msvcrt.locking`` on Windows.
+    The Windows branch locks the first byte of the lock file and retries
+    until the lock becomes available, matching the blocking behavior of
+    ``flock(..., LOCK_EX)``.
+    """
+    if fcntl is None and msvcrt is None:
         raise RuntimeError(
-            "Inter-process attempt-ledger locking requires fcntl on this platform"
+            "Inter-process attempt-ledger locking requires fcntl (POSIX) "
+            "or msvcrt (Windows)"
         )
+
     key = str(Path(unit_dir).resolve())
     with _UNIT_STATE_LOCKS_GUARD:
         thread_lock = _UNIT_STATE_LOCKS.setdefault(key, threading.Lock())
+
     with thread_lock:
         lock_path = Path(unit_dir) / ".attempt-ledger.lock"
+        if lock_path.is_symlink():
+            raise ValueError("Attempt-ledger lock file must not be a symlink")
+
         flags = os.O_CREAT | os.O_RDWR
         if hasattr(os, "O_NOFOLLOW"):
             flags |= os.O_NOFOLLOW
         descriptor = os.open(str(lock_path), flags, 0o600)
+
         try:
-            fcntl.flock(descriptor, fcntl.LOCK_EX)
-            yield
+            if fcntl is not None:
+                fcntl.flock(descriptor, fcntl.LOCK_EX)
+                try:
+                    yield
+                finally:
+                    fcntl.flock(descriptor, fcntl.LOCK_UN)
+            else:
+                # msvcrt.locking locks a byte range beginning at the current
+                # file position. Ensure byte 0 exists and always seek to it.
+                if os.fstat(descriptor).st_size == 0:
+                    os.write(descriptor, b"\0")
+                    os.fsync(descriptor)
+                os.lseek(descriptor, 0, os.SEEK_SET)
+
+                while True:
+                    try:
+                        msvcrt.locking(descriptor, msvcrt.LK_NBLCK, 1)
+                        break
+                    except OSError:
+                        time.sleep(0.05)
+
+                try:
+                    yield
+                finally:
+                    os.lseek(descriptor, 0, os.SEEK_SET)
+                    msvcrt.locking(descriptor, msvcrt.LK_UNLCK, 1)
         finally:
-            fcntl.flock(descriptor, fcntl.LOCK_UN)
             os.close(descriptor)
 
 
@@ -703,16 +745,39 @@ def _artifact_measure(path):
 
 
 def _relative_artifact_path(path, base_dir):
-    path = Path(path)
-    if not path.is_absolute():
-        path = Path(base_dir) / path
+    """Resolve an artifact path safely inside *base_dir*.
+
+    Callers use two legitimate relative-path forms:
+    1) a path relative to ``base_dir`` (for example ``"fit_timing.json"``), and
+    2) a project-relative path that already includes ``base_dir`` (for example
+       ``results/.../attempt-0001/labels/label-000/fit_timing.json``).
+
+    The previous implementation unconditionally prefixed ``base_dir`` to every
+    relative path.  That duplicated form (2) and caused valid label artifacts to
+    fail the label-specific-directory check, especially when the experiment root
+    itself was configured as a relative path.
+    """
+    raw_path = Path(path)
+    base_path = Path(base_dir)
     try:
-        relative = path.resolve().relative_to(Path(base_dir).resolve())
+        resolved_base = base_path.resolve()
+        if raw_path.is_absolute():
+            resolved_path = raw_path.resolve()
+        else:
+            # First preserve a project/CWD-relative path that already resolves
+            # inside base_dir. Otherwise interpret it as relative to base_dir.
+            cwd_candidate = raw_path.resolve()
+            try:
+                cwd_candidate.relative_to(resolved_base)
+                resolved_path = cwd_candidate
+            except ValueError:
+                resolved_path = (base_path / raw_path).resolve()
+        relative = resolved_path.relative_to(resolved_base)
     except (OSError, ValueError) as exc:
         raise ValueError("Artifacts must be inside the attempt/checkpoint directory") from exc
     if relative == Path("."):
         raise ValueError("An artifact must not be the whole attempt/checkpoint directory")
-    return path, relative.as_posix()
+    return resolved_path, relative.as_posix()
 
 
 def _valid_provenance(provenance):
@@ -1272,6 +1337,64 @@ def multilabel_stratified_folds(y, n_splits=5, seed=DEFAULT_SEED):
     return [(train_idx, test_idx) for train_idx, test_idx in splitter.split(np.zeros(len(y)), y)]
 
 
+def _repair_exact_multilabel_subset_size(y_pool, selected_indices, target_size):
+    """Return exactly ``target_size`` indices while minimally perturbing label balance.
+
+    ``iterative-stratification`` explicitly allows the realized train/test sizes to
+    differ slightly from the requested sizes in order to preserve multilabel
+    proportions.  The experiment protocol, however, requires exact training
+    cardinalities (e.g. 270, 135, 68).  When a split is off by a few samples,
+    deterministically add/remove the sample that minimizes weighted label-count
+    deviation from the requested-size target.
+    """
+    y_pool = np.asarray(y_pool, dtype=int)
+    selected = np.unique(np.asarray(selected_indices, dtype=int))
+    if y_pool.ndim != 2:
+        raise ValueError("y_pool must be a two-dimensional multilabel matrix")
+    if target_size <= 0 or target_size > len(y_pool):
+        raise ValueError("target_size must be between 1 and the pool size")
+    if (selected < 0).any() or (selected >= len(y_pool)).any():
+        raise ValueError("Selected subset indices are outside the current pool")
+
+    target_counts = y_pool.sum(axis=0, dtype=float) * (float(target_size) / len(y_pool))
+    # Rare labels receive more weight so exact-size repair does not casually
+    # sacrifice their representation.  Tie-breaking is by original pool index,
+    # making the repair deterministic across platforms.
+    weights = 1.0 / np.maximum(target_counts, 1.0)
+
+    while len(selected) > target_size:
+        current_counts = y_pool[selected].sum(axis=0, dtype=float)
+        candidates = []
+        for idx in selected:
+            after = current_counts - y_pool[idx]
+            error = float(np.sum(weights * np.abs(after - target_counts)))
+            candidates.append((error, int(idx)))
+        remove_idx = min(candidates)[1]
+        selected = selected[selected != remove_idx]
+
+    while len(selected) < target_size:
+        selected_set = set(selected.tolist())
+        available = np.array(
+            [idx for idx in range(len(y_pool)) if idx not in selected_set], dtype=int
+        )
+        if len(available) == 0:
+            raise ValueError("Cannot repair multilabel subset to requested size")
+        current_counts = (
+            y_pool[selected].sum(axis=0, dtype=float)
+            if len(selected)
+            else np.zeros(y_pool.shape[1], dtype=float)
+        )
+        candidates = []
+        for idx in available:
+            after = current_counts + y_pool[idx]
+            error = float(np.sum(weights * np.abs(after - target_counts)))
+            candidates.append((error, int(idx)))
+        add_idx = min(candidates)[1]
+        selected = np.append(selected, add_idx)
+
+    return np.sort(selected.astype(int))
+
+
 def nested_multilabel_stratified_subsets(y, sizes, seed=DEFAULT_SEED):
     try:
         from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit
@@ -1291,11 +1414,26 @@ def nested_multilabel_stratified_subsets(y, sizes, seed=DEFAULT_SEED):
             continue
         if size > len(current):
             continue
+        # iterative-stratification 0.1.9 still defaults test_size to the
+        # legacy string "default", which newer scikit-learn versions reject.
+        # Passing None explicitly requests the complement of train_size.
+        pool_y = y[current]
         splitter = MultilabelStratifiedShuffleSplit(
-            n_splits=1, train_size=size, random_state=seed + step
+            n_splits=1, train_size=size, test_size=None, random_state=seed + step
         )
-        selected_relative, _ = next(splitter.split(np.zeros(len(current)), y[current]))
-        current = current[selected_relative]
+        selected_relative, _ = next(splitter.split(np.zeros(len(current)), pool_y))
+        # The package documents that multilabel stratification can return a
+        # slightly different cardinality than requested.  Repair only when
+        # necessary because the experiment protocol requires exact sizes.
+        if len(selected_relative) != size:
+            selected_relative = _repair_exact_multilabel_subset_size(
+                pool_y, selected_relative, size
+            )
+        current = current[np.asarray(selected_relative, dtype=int)]
+        if len(current) != size:
+            raise ValueError(
+                f"Exact nested subset construction failed: requested {size}, got {len(current)}"
+            )
         result[size] = np.sort(current)
     missing = set(requested) - set(result)
     if missing:
